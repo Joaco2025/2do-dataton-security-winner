@@ -1,0 +1,27 @@
+municipios                   72
+mojibake_names               0
+detentions_total             1472
+detentions_in_master         1267
+itama_total                  35
+itama_in_master              18
+municipios_with_itama_gt0    3
+
+Municipalities with ITAMA > 0 (drive r(abs_NO_asiste_15a17, menores_internados)):
+ municipio  abs_NO_asiste_15a17  menores_internados
+Hermosillo                 8844                  16
+      Naco                  102                   1
+   Navojoa                 1924                   1
+
+r with all 72 municipalities: 0.784 | without Hermosillo: 0.138
+
+Sensitivity (absolute counts vs percentages vs population):
+                  x                  y  pearson_r      p_value  spearman_rho  n
+abs_NO_asiste_15a17    total_detenidos      0.898 1.290000e-26         0.520 72
+abs_NO_asiste_15a17  menores_detenidos      0.609 1.420000e-08         0.444 72
+abs_NO_asiste_15a17 menores_internados      0.784 3.780000e-16         0.254 72
+abs_NO_asiste_15a17    poblacion_total      0.990 9.860000e-61         0.976 72
+pct_NO_asiste_15a17    total_detenidos     -0.102 3.960000e-01        -0.248 72
+pct_NO_asiste_15a17 menores_internados     -0.084 4.810000e-01        -0.077 72
+pct_NO_asiste_15a17 tasa_detenidos_10k     -0.293 1.240000e-02        -0.277 72
+ indice_marginacion   tasa_delitos_10k      0.321 6.020000e-03         0.355 72
+pct_sin_educ_basica   tasa_delitos_10k     -0.489 1.320000e-05        -0.500 72

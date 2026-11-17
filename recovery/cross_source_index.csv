@@ -1,0 +1,9 @@
+topic,conversation,code,input_data,output,dashboard,presentation
+ITER census + marginación,CL1 msgs 6–7,CL1-C025,"raw ITER CSV, CONAPO xlsx",sheet 01,dashboard map/scatter,"pitch: ""marginación… débil. 0.32"""
+SESNSP merge,CL1 msgs 8–21,"CL1-C019 (Claude) vs src/juntar_datos.py (local, modified)",sesnsp_2015_2025.csv,sheets 03/04/21,line chart narcomenudeo,pitch: narcomenudeo alza
+15–17 non-attendance,CL1 msgs 30–33 (team idea),CL1-C031/C035,ITER,sheet 01 abs/pct_NO_asiste_15a17,5×4 matrix visual,pitch 0.61/0.78/0.90 (mislabelled as %)
+Correlation heatmap,CL1 msg 50 (advisor task),"CL1-C050, CL2-C043",sheet 01,"sheets 12, 29_Matriz_Corr_5x4",matrix visual in test.pbix,"pitch ""tabla de correlaciones"""
+ITAMA profile,CL1 msg 2 (upload),"CL1-C025, CL2-C025",ITAMA xlsx (restricted),"sheets 06, 20, 20b, 20c",donut + KPI cards (DAX in CL2 msg 35),pitch 77% / 16 años / 86% / 91%
+Projection,"CL2 msg 14 (""llama la atención… ML"")",CL2-C029/C030; CL1-C067..C070,SESNSP annual totals,sheet 24 (OLS) ; v5 sheet 29 (poly),line chart (sheet 24) in test.pbix,"pitch ""R² 0.934"" (poly, not in dashboard)"
+Google Trends,CL1 msgs 56–59; CL2 msgs 48–63,"CL1-C059, CL2-C047",multiTimeline*.csv,google_trends xlsx; v6 sheets 31–33,"artist line charts (test verdadero.pbix, post-deadline)","pitch ""se multiplicó por diez""; jury reaction (reported)"
+Dashboard,CL2 msgs 10–63,—,v6 workbook,test.pbix / test verdadero.pbix,PDF exports,pitch stage directions

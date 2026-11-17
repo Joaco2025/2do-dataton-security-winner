@@ -1,0 +1,286 @@
+scope,artifact_id,path,classification,reason
+input evidence,A0001,DatatonRecovery_Audit/conversation_index.csv,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0002,DatatonRecovery_Audit/dependency_map.md,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0003,DatatonRecovery_Audit/executive_summary.md,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0004,DatatonRecovery_Audit/experiment_catalog.md,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0005,DatatonRecovery_Audit/inventory.csv,PRIVATE_ONLY,absolute personal paths and user names
+input evidence,A0006,DatatonRecovery_Audit/inventory.json,PRIVATE_ONLY,absolute personal paths and user names
+input evidence,A0007,DatatonRecovery_Audit/missing_artifacts.md,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0008,DatatonRecovery_Audit/project_artifacts.md,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0009,DatatonRecovery_Audit/questions_for_human.md,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0010,DatatonRecovery_Audit/recovered_decisions.md,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0011,DatatonRecovery_Audit/security_audit.md,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0012,DatatonRecovery_Audit/version_analysis.md,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0013,DatatonRecovery_Audit/evidence/E01_page_embed.txt,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0014,DatatonRecovery_Audit/evidence/E02_powerbi_report_text.txt,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0015,DatatonRecovery_Audit/evidence/README.md,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0016,DatatonRecovery_Audit/evidence/analysis_results_excerpt.txt,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0017,DatatonRecovery_Audit/evidence/claude_conversation_outline.txt,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0018,DatatonRecovery_Audit/evidence/dataset_schemas.txt,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0019,DatatonRecovery_Audit/evidence/pbix_layout_summary.txt,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0020,DatatonRecovery_Audit/evidence/security_scan_counts.json,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0021,DatatonRecovery_Audit/evidence/workbook_sheet_lineage.csv,PUBLICATION_REQUIRES_REVIEW,prior audit text; contains machine/user names
+input evidence,A0022,claude-1/conversations-000.zip,PRIVATE_ONLY,"raw AI account export: personal data, unrelated chats, login history"
+input evidence,A0023,claude-1/frames-000.zip,EXCLUDE,"unrelated artifacts (coursework, other events) from the account"
+input evidence,A0024,claude-1/light_metadata-000.zip,PRIVATE_ONLY,"raw AI account export: personal data, unrelated chats, login history"
+input evidence,A0025,claude-1/projects-000.zip,PRIVATE_ONLY,"raw AI account export: personal data, unrelated chats, login history"
+input evidence,A0026,claude-2/conversations-000.zip,PRIVATE_ONLY,"raw AI account export: personal data, unrelated chats, login history"
+input evidence,A0027,claude-2/light_metadata-000.zip,PRIVATE_ONLY,"raw AI account export: personal data, unrelated chats, login history"
+input evidence,A0028,claude-2/memories-000.zip,PRIVATE_ONLY,"raw AI account export: personal data, unrelated chats, login history"
+input evidence,A0029,dataton-seguridad-sonora/.gitignore,PUBLICATION_REQUIRES_REVIEW,
+input evidence,A0030,dataton-seguridad-sonora/MANIFEST.csv,PRIVATE_ONLY,absolute personal paths
+input evidence,A0031,dataton-seguridad-sonora/NOT_COPIED.csv,PRIVATE_ONLY,absolute personal paths
+input evidence,A0032,dataton-seguridad-sonora/README.md,PUBLICATION_REQUIRES_REVIEW,
+input evidence,A0033,dataton-seguridad-sonora/ai_conversations/conversacion claudio 2.txt,PRIVATE_ONLY,raw conversation copy with personal paths; curated excerpts only
+input evidence,A0034,dataton-seguridad-sonora/ai_conversations/conversacion claudio.txt,PRIVATE_ONLY,raw conversation copy with personal paths; curated excerpts only
+input evidence,A0035,dataton-seguridad-sonora/dashboard/exports/Dashboard_Dataton.pdf,PUBLICATION_REQUIRES_REVIEW,aggregated visuals; check each page for small-cell ITAMA figures
+input evidence,A0036,dataton-seguridad-sonora/dashboard/exports/test 9.14.pdf,PUBLICATION_REQUIRES_REVIEW,aggregated visuals; check each page for small-cell ITAMA figures
+input evidence,A0037,dataton-seguridad-sonora/dashboard/exports/test final fina finalisimo ya es la ultima.pdf,PUBLICATION_REQUIRES_REVIEW,aggregated visuals; check each page for small-cell ITAMA figures
+input evidence,A0038,dataton-seguridad-sonora/dashboard/exports/test final final.pdf,PUBLICATION_REQUIRES_REVIEW,aggregated visuals; check each page for small-cell ITAMA figures
+input evidence,A0039,dataton-seguridad-sonora/dashboard/exports/test final.pdf,PUBLICATION_REQUIRES_REVIEW,aggregated visuals; check each page for small-cell ITAMA figures
+input evidence,A0040,dataton-seguridad-sonora/dashboard/exports/test super final final ya.pdf,PUBLICATION_REQUIRES_REVIEW,aggregated visuals; check each page for small-cell ITAMA figures
+input evidence,A0041,dataton-seguridad-sonora/dashboard/exports/test.pdf,PUBLICATION_REQUIRES_REVIEW,aggregated visuals; check each page for small-cell ITAMA figures
+input evidence,A0042,dataton-seguridad-sonora/dashboard/pbix/Dashboard_Dataton.rar,EXCLUDE,Power BI model embeds all imported data incl. ITAMA rows; publish a sanitised rebuild only
+input evidence,A0043,dataton-seguridad-sonora/dashboard/pbix/test verdadero.pbix,EXCLUDE,Power BI model embeds all imported data incl. ITAMA rows; publish a sanitised rebuild only
+input evidence,A0044,dataton-seguridad-sonora/dashboard/pbix/test(1).pbix,EXCLUDE,Power BI model embeds all imported data incl. ITAMA rows; publish a sanitised rebuild only
+input evidence,A0045,dataton-seguridad-sonora/dashboard/pbix/test.pbix,EXCLUDE,Power BI model embeds all imported data incl. ITAMA rows; publish a sanitised rebuild only
+input evidence,A0046,dataton-seguridad-sonora/dashboard/screenshots/charts/0871c6e100197eac27986f501647bc94.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0047,dataton-seguridad-sonora/dashboard/screenshots/charts/21f39dc5554d1775f7f35531a70730d9.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0048,dataton-seguridad-sonora/dashboard/screenshots/charts/2cc3b98b7506653367cf84c1cd37f13b.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0049,dataton-seguridad-sonora/dashboard/screenshots/charts/37852b09ae91c5b8dcf0d43bfa3d0921.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0050,dataton-seguridad-sonora/dashboard/screenshots/charts/39210ab4946bbe3e1f376aaeb40b6768.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0051,dataton-seguridad-sonora/dashboard/screenshots/charts/464771aa132dab051fc418545e905a7c.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0052,dataton-seguridad-sonora/dashboard/screenshots/charts/575b6db44c406e6125c08dbfdef132a9.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0053,dataton-seguridad-sonora/dashboard/screenshots/charts/6464db77496a3ed1e1fbc4678d55933c.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0054,dataton-seguridad-sonora/dashboard/screenshots/charts/749f7be9cc670e9f26b42b7afd549585.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0055,dataton-seguridad-sonora/dashboard/screenshots/charts/7acfaba1931c60f55d2a822562bb7541.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0056,dataton-seguridad-sonora/dashboard/screenshots/charts/7dcf7b015966cdb59990937485b0bd14.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0057,dataton-seguridad-sonora/dashboard/screenshots/charts/7f3aff56c849cf8169b158699aa2eb8a.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0058,dataton-seguridad-sonora/dashboard/screenshots/charts/8516be7d32884b96d803328e07055b3e.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0059,dataton-seguridad-sonora/dashboard/screenshots/charts/8bf269316ce1c8e54aa68d08335dedb4.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0060,dataton-seguridad-sonora/dashboard/screenshots/charts/8c42c3b29a5c254382df78041a58e455.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0061,dataton-seguridad-sonora/dashboard/screenshots/charts/9386bd53d97fd0d0b5cdaf656f082a43.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0062,dataton-seguridad-sonora/dashboard/screenshots/charts/99d7e160793ff973cd482bbf177f5224.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0063,dataton-seguridad-sonora/dashboard/screenshots/charts/9b258c22f32bca77496f960eb6a933e4.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0064,dataton-seguridad-sonora/dashboard/screenshots/charts/9d5cc39a6c6cc7536442dc8be4495ff8.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0065,dataton-seguridad-sonora/dashboard/screenshots/charts/9d8e69a146d8ae4c482d6707ed8eaab1.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0066,dataton-seguridad-sonora/dashboard/screenshots/charts/9f5a39ee67259ecbe35cc93292dc5261.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0067,dataton-seguridad-sonora/dashboard/screenshots/charts/a31246085ec3452a7e4de6697b798e54.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0068,dataton-seguridad-sonora/dashboard/screenshots/charts/acfe91b3baf9476ecb9824cf2c1c19f6.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0069,dataton-seguridad-sonora/dashboard/screenshots/charts/b65906247e6cee120cc0876cbdc3c80e.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0070,dataton-seguridad-sonora/dashboard/screenshots/charts/b8a7352fd60c15049c4c0293873d5944.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0071,dataton-seguridad-sonora/dashboard/screenshots/charts/bc38430b66507adae0457fc00d8c6343.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0072,dataton-seguridad-sonora/dashboard/screenshots/charts/be9e86c792fd935d241b4e2efc7d7fe8.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0073,dataton-seguridad-sonora/dashboard/screenshots/charts/cdbc94a64e3493e9b008cf1f91b939f3.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0074,dataton-seguridad-sonora/dashboard/screenshots/charts/dda57461ebe8c1e65412a3695adf568e.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0075,dataton-seguridad-sonora/dashboard/screenshots/charts/e9f1be3c294f8db29b22bf68be0b4a81.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0076,dataton-seguridad-sonora/dashboard/screenshots/charts/f4b0176c6e441f5859ac1455baebe4c1.png,PUBLICATION_REQUIRES_REVIEW,chart images; some show other teams or AI chat UI
+input evidence,A0077,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/0bbd0339caec5f4435c9fd07cee14cc3.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0078,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/33582e3cce34eb95fd7199be4c812bac.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0079,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/3e549c0642da7aa4fbab0ddbfe50c631.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0080,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/3f40b88940abda1f141f1dfd3eda2425.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0081,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/56395a46d4090e86987ed00f92ff84c1.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0082,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/60abc0690e7b54440244671662d6e050.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0083,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/6f768c07ad6663ae116b080f3eb3f723.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0084,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/7063fdd081677686262c94ed87efebf1.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0085,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/7302439e8caa20ba90d3200d0d599f1a.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0086,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/7dc7117bb2bda3c9f1e27f1357a2ba12.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0087,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/801c332718668affc7d8f3853955394b.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0088,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/8924041cb2a896152bdd8261060bad33.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0089,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/acab645161f6dcdbf9f0f8c9df792f61.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0090,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/ae81e72417cbf3ff47e4f84855d4112d.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0091,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/b85c501ec864aa39df9747c76481b3af.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0092,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/c3200fc8866cf21f5cd6f9207c9300d0.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0093,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/c34dc4c7e45399a836af5c9b57f57c13.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0094,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/c6c4044289432e15cc6de0f255d6b0d4.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0095,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/e78f76cf8941c55f5bca406ae51cce95.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0096,dataton-seguridad-sonora/dashboard/screenshots/debug_and_evidence/ef753d495486b1caf6086bedc9f3aa23.png,EXCLUDE,folder listings / UI with personal paths
+input evidence,A0097,dataton-seguridad-sonora/data/interim/sesnsp_2015_2025.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0098,dataton-seguridad-sonora/data/interim/sesnsp_largo_2015_2025.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0099,dataton-seguridad-sonora/data/processed/_unverified/corridos_tumbados_dataset (1).xlsx,EXCLUDE,no traceable source
+input evidence,A0100,dataton-seguridad-sonora/data/processed/extracts/MIRALO BIEN.xlsx,PUBLICATION_REQUIRES_REVIEW,small aggregated table (municipal correlations / projections)
+input evidence,A0101,dataton-seguridad-sonora/data/processed/extracts/Seguridad Sonoraoifidjv.xlsx,EXCLUDE,ACLED-derived rows
+input evidence,A0102,dataton-seguridad-sonora/data/processed/extracts/crimenes sonora.xlsx,EXCLUDE,ACLED-derived rows
+input evidence,A0103,dataton-seguridad-sonora/data/processed/extracts/heatmap_correlaciones.csv,PUBLICATION_REQUIRES_REVIEW,small aggregated table (municipal correlations / projections)
+input evidence,A0104,dataton-seguridad-sonora/data/processed/extracts/matriz de correlaciones final.xlsx,PUBLICATION_REQUIRES_REVIEW,small aggregated table (municipal correlations / projections)
+input evidence,A0105,dataton-seguridad-sonora/data/processed/extracts/matriz de correlaciones.xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0106,dataton-seguridad-sonora/data/processed/extracts/matriz_corr_5x4_largo.csv,PUBLICATION_REQUIRES_REVIEW,small aggregated table (municipal correlations / projections)
+input evidence,A0107,dataton-seguridad-sonora/data/processed/extracts/proyeccion_10años_ML.csv,PUBLICATION_REQUIRES_REVIEW,small aggregated table (municipal correlations / projections)
+input evidence,A0108,dataton-seguridad-sonora/data/processed/extracts/scatter_normalizado_10k.csv,PUBLICATION_REQUIRES_REVIEW,small aggregated table (municipal correlations / projections)
+input evidence,A0109,dataton-seguridad-sonora/data/processed/google_trends/google_trends_sonora_narco(1).xlsx,PUBLICATION_REQUIRES_REVIEW,derived Google Trends indices
+input evidence,A0110,dataton-seguridad-sonora/data/processed/google_trends/google_trends_sonora_narco.xlsx,PUBLICATION_REQUIRES_REVIEW,derived Google Trends indices
+input evidence,A0111,dataton-seguridad-sonora/data/processed/master_workbooks/cons.xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0112,dataton-seguridad-sonora/data/processed/master_workbooks/nuevos_datasets_sonora(1).xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0113,dataton-seguridad-sonora/data/processed/master_workbooks/nuevos_datasets_sonora.xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0114,dataton-seguridad-sonora/data/processed/master_workbooks/sonora_maestro_v2.xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0115,dataton-seguridad-sonora/data/processed/master_workbooks/sonora_maestro_v3.xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0116,dataton-seguridad-sonora/data/processed/master_workbooks/sonora_maestro_v4.xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0117,dataton-seguridad-sonora/data/processed/master_workbooks/sonora_maestro_v5(1).xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0118,dataton-seguridad-sonora/data/processed/master_workbooks/sonora_maestro_v5.xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0119,dataton-seguridad-sonora/data/processed/master_workbooks/sonora_maestro_v6.xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0120,dataton-seguridad-sonora/data/processed/master_workbooks/sonora_seguridad_powerbi(1).xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0121,dataton-seguridad-sonora/data/processed/master_workbooks/sonora_seguridad_powerbi(3).xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0122,dataton-seguridad-sonora/data/processed/master_workbooks/sonora_seguridad_powerbi.xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0123,dataton-seguridad-sonora/data/processed/master_workbooks/sonora_seguridad_powerbi__2026-04-22_1905.xlsx,EXCLUDE,embeds 06_ITAMA_Menores (35 minors: sex/age/municipality/offence) and detention rows; regenerate locally
+input evidence,A0124,dataton-seguridad-sonora/data/raw/_unreviewed/Son_10-15.zip,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0125,dataton-seguridad-sonora/data/raw/censo_iter_2020/iter_26_cpv2020/catalogos/tam_loc.csv.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0126,dataton-seguridad-sonora/data/raw/censo_iter_2020/iter_26_cpv2020/conjunto_de_datos/conjunto_de_datos_iter_26CSV20.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0127,dataton-seguridad-sonora/data/raw/censo_iter_2020/iter_26_cpv2020/conjunto_de_datos/diccionario_datos_iter_26CSV20.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0128,dataton-seguridad-sonora/data/raw/censo_iter_2020/iter_26_cpv2020/diccionario_datos/diccionario_datos_iter_26CSV20.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0129,dataton-seguridad-sonora/data/raw/censo_iter_2020/iter_26_cpv2020/metadatos/metadatos_iter_26_cpv2020.txt,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0130,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/01_viviendas_precarias_SIODS.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0131,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/02_rezago_habitacional_mun_2015.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0132,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/03_rezago_habitacional_mun_2020.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0133,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/Concentrado_indicadores_de_pobreza_2020.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0134,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/IRS_localidad_2020.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0135,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/enoe_indicadores_estrategicos_2005_2026_mensual.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0136,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/indice-de-marginacion-municipios-2020.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0137,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/irs_entidad_nacional_2020.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0138,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/irs_municipal_2020.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0139,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/sonora rezago educativo.pdf,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0140,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/Indice de marginación urbana en Areas Geoestadísticas Básicas AGEB/Catalogo.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0141,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/Indice de marginación urbana en Areas Geoestadísticas Básicas AGEB/Diccionario.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0142,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/Indice de marginación urbana en Areas Geoestadísticas Básicas AGEB/datos/Indice de marginación urbana en Areas Geoestadísticas Básicas AGEB 2020.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0143,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/indice de marginalidad colonias/Indice de marginación urbana por colonia/Catalogo.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0144,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/indice de marginalidad colonias/Indice de marginación urbana por colonia/Diccionario.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0145,dataton-seguridad-sonora/data/raw/contexto_socioeconomico/indice de marginalidad colonias/Indice de marginación urbana por colonia/datos/Indice de marginación urbana por colonia  2020.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0146,dataton-seguridad-sonora/data/raw/educacion/Educacion_11.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0147,dataton-seguridad-sonora/data/raw/enoe_informalidad/Tasas de informalidad por trimestre/Tasas_Infor_enti-1.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0148,dataton-seguridad-sonora/data/raw/enoe_informalidad/Tasas de informalidad por área geográfica/Nacional/Nacional_Tasas_Inf_Resu-1.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0149,dataton-seguridad-sonora/data/raw/enoe_informalidad/Tasas de informalidad por área geográfica/Áreas urbanas/Areas_Tasas_Inf_Resu-1.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0150,dataton-seguridad-sonora/data/raw/geo/sonora_municipios.geojson,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0151,dataton-seguridad-sonora/data/raw/geo/sonora_municipios.topojson,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0152,dataton-seguridad-sonora/data/raw/google_trends/multiTimeline(1).csv,EXCLUDE,raw Google Trends exports (ToS); publish derived aggregates after review
+input evidence,A0153,dataton-seguridad-sonora/data/raw/google_trends/multiTimeline(2).csv,EXCLUDE,raw Google Trends exports (ToS); publish derived aggregates after review
+input evidence,A0154,dataton-seguridad-sonora/data/raw/google_trends/multiTimeline(3).csv,EXCLUDE,raw Google Trends exports (ToS); publish derived aggregates after review
+input evidence,A0155,dataton-seguridad-sonora/data/raw/google_trends/multiTimeline(4).csv,EXCLUDE,raw Google Trends exports (ToS); publish derived aggregates after review
+input evidence,A0156,dataton-seguridad-sonora/data/raw/google_trends/multiTimeline(5).csv,EXCLUDE,raw Google Trends exports (ToS); publish derived aggregates after review
+input evidence,A0157,dataton-seguridad-sonora/data/raw/google_trends/multiTimeline(6).csv,EXCLUDE,raw Google Trends exports (ToS); publish derived aggregates after review
+input evidence,A0158,dataton-seguridad-sonora/data/raw/google_trends/multiTimeline(7).csv,EXCLUDE,raw Google Trends exports (ToS); publish derived aggregates after review
+input evidence,A0159,dataton-seguridad-sonora/data/raw/google_trends/multiTimeline(8).csv,EXCLUDE,raw Google Trends exports (ToS); publish derived aggregates after review
+input evidence,A0160,dataton-seguridad-sonora/data/raw/google_trends/multiTimeline.csv,EXCLUDE,raw Google Trends exports (ToS); publish derived aggregates after review
+input evidence,A0161,dataton-seguridad-sonora/data/raw/justicia_penitenciario/encuestas ENASJUP/FD_ENASJUP_2022.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0162,dataton-seguridad-sonora/data/raw/justicia_penitenciario/encuestas ENASJUP/BD_ENASJUP_2022_CSV/ENASJUP22_EXT_SEC_123456.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0163,dataton-seguridad-sonora/data/raw/justicia_penitenciario/encuestas ENASJUP/BD_ENASJUP_2022_CSV/ENASJUP22_GEN_SEC_1.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0164,dataton-seguridad-sonora/data/raw/justicia_penitenciario/encuestas ENASJUP/BD_ENASJUP_2022_CSV/ENASJUP22_GEN_SEC_2_1.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0165,dataton-seguridad-sonora/data/raw/justicia_penitenciario/encuestas ENASJUP/BD_ENASJUP_2022_CSV/ENASJUP22_GEN_SEC_2_2.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0166,dataton-seguridad-sonora/data/raw/justicia_penitenciario/encuestas ENASJUP/BD_ENASJUP_2022_CSV/ENASJUP22_GEN_SEC_3.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0167,dataton-seguridad-sonora/data/raw/justicia_penitenciario/encuestas ENASJUP/BD_ENASJUP_2022_CSV/ENASJUP22_GEN_SEC_4.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0168,dataton-seguridad-sonora/data/raw/justicia_penitenciario/encuestas ENASJUP/BD_ENASJUP_2022_CSV/ENASJUP22_GEN_SEC_5_1.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0169,dataton-seguridad-sonora/data/raw/justicia_penitenciario/encuestas ENASJUP/BD_ENASJUP_2022_CSV/ENASJUP22_GEN_SEC_5_2.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0170,dataton-seguridad-sonora/data/raw/justicia_penitenciario/encuestas ENASJUP/BD_ENASJUP_2022_CSV/ENASJUP22_INT_SEC_1234.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0171,dataton-seguridad-sonora/data/raw/justicia_penitenciario/encuestas ENASJUP/BD_ENASJUP_2022_CSV/ENASJUP22_INT_SEC_5_1.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0172,dataton-seguridad-sonora/data/raw/justicia_penitenciario/encuestas ENASJUP/BD_ENASJUP_2022_CSV/ENASJUP22_INT_SEC_5_2_678.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0173,dataton-seguridad-sonora/data/raw/seguridad_incidencia/DELITOS_DEL_2020_AL_2025.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0174,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Latin-America-the-Caribbean_aggregated_data_up_to_week_of-2026-04-11.xlsx,EXCLUDE,ACLED terms prohibit raw redistribution
+input evidence,A0175,dataton-seguridad-sonora/data/raw/seguridad_incidencia/RNID-Delitos_Estatal-2026-mar2026.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0176,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/Catalogo.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0177,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/Diccionario.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0178,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/datos/2015.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0179,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/datos/2016.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0180,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/datos/2017.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0181,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/datos/2018.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0182,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/datos/2019.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0183,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/datos/2020.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0184,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/datos/2021.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0185,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/datos/2022.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0186,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/datos/2023.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0187,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/datos/2024.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0188,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Incidencia delictiva municipal/datos/2025.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0189,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Personas Detenidas/Diccionario personas detenidas.csv,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0190,dataton-seguridad-sonora/data/raw/seguridad_incidencia/Personas Detenidas/datos/Personas Detenidas en el primer trimestre 2026.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0191,dataton-seguridad-sonora/data/raw/seguridad_incidencia/enape_2021_tabulados_basicos_complementarios_xlsx/01EST_Tabulados_ENAPE 2021.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0192,dataton-seguridad-sonora/data/raw/seguridad_incidencia/enape_2021_tabulados_basicos_complementarios_xlsx/02CVA_Tabulados_ENAPE 2021.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0193,dataton-seguridad-sonora/data/raw/seguridad_incidencia/enape_2021_tabulados_basicos_complementarios_xlsx/03EES_Tabulados_ENAPE 2021.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0194,dataton-seguridad-sonora/data/raw/seguridad_incidencia/enape_2021_tabulados_basicos_complementarios_xlsx/04LIN_Tabulados_ENAPE 2021.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0195,dataton-seguridad-sonora/data/raw/seguridad_incidencia/enape_2021_tabulados_basicos_complementarios_xlsx/05LSU_Tabulados_ENAPE 2021.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0196,dataton-seguridad-sonora/data/raw/seguridad_incidencia/enape_2021_tabulados_basicos_complementarios_xlsx/06MUE_Tabulados_ENAPE 2021.xlsx,EXCLUDE,third-party data: link + download instructions instead (data/README.md)
+input evidence,A0197,dataton-seguridad-sonora/docs/DATOSDATATON.docx,PUBLICATION_REQUIRES_REVIEW,team notes
+input evidence,A0198,dataton-seguridad-sonora/docs/LINKS UTILIZADOS.txt,PUBLICATION_REQUIRES_REVIEW,team notes
+input evidence,A0199,dataton-seguridad-sonora/docs/Presentación.pdf,PUBLICATION_REQUIRES_REVIEW,official briefing; contains names of mentors/judges; link or cite instead
+input evidence,A0200,dataton-seguridad-sonora/docs/graficas ml.txt,PUBLICATION_REQUIRES_REVIEW,team notes
+input evidence,A0201,dataton-seguridad-sonora/restricted/[withheld],EXCLUDE,personal data: minors' names (ITAMA raw) or participants' names/e-mail in screenshots
+input evidence,A0202,dataton-seguridad-sonora/restricted/[withheld],EXCLUDE,personal data: minors' names (ITAMA raw) or participants' names/e-mail in screenshots
+input evidence,A0203,dataton-seguridad-sonora/restricted/[withheld],EXCLUDE,personal data: minors' names (ITAMA raw) or participants' names/e-mail in screenshots
+input evidence,A0204,dataton-seguridad-sonora/src/juntar_datos.py,PUBLICATION_REQUIRES_REVIEW,hard-coded personal paths (redacted copy in src/legacy)
+repository,,.gitignore,PUBLICATION_APPROVED,"reconstructed code/config, no personal data (secret scan clean)"
+repository,,LICENSE,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,LICENSE-docs.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,README.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,requirements.txt,PUBLICATION_APPROVED,"reconstructed code/config, no personal data (secret scan clean)"
+repository,,data/README.md,PUBLICATION_APPROVED,"reconstructed code/config, no personal data (secret scan clean)"
+repository,,docs/01_project_overview.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/02_competition_context.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/03_original_idea.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/04_project_evolution.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/05_final_project.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/06_methodology.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/07_software_architecture.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/08_data_sources.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/09_research_findings.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/10_limitations.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/11_final_pitch.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/12_competition_outcome.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/13_lessons_learned.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,docs/14_recovery_provenance.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,outputs/tables/audit_checks_v6.txt,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,outputs/tables/verify_log_2026-11-16.txt,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/abandoned_approaches.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/archive_manifest.csv,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/complete_inventory.csv,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/complete_inventory.json,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/contradictions_report.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/conversation_catalog.csv,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/cross_source_index.csv,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/dataset_catalog.csv,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/decision_history.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/duplicate_analysis.csv,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/evidence_traceability.csv,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/experiment_catalog.csv,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/master_timeline.csv,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/missing_artifacts.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/project_knowledge_graph.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/publication_classification.csv,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/README.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/recovered_code_catalog.csv,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/recovery_report.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/reproducibility_audit.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/security_audit.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/unresolved_questions.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/version_history.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/evidence/published_dashboard_2026-11-16.jpg,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,recovery/evidence/published_dashboard_2026-11-16.md,PUBLICATION_REQUIRES_REVIEW,"recovery documentation: reported claims, jury roles, team details – human read required"
+repository,,src/audit_checks.py,PUBLICATION_APPROVED,"reconstructed code/config, no personal data (secret scan clean)"
+repository,,src/merge_sesnsp.py,PUBLICATION_APPROVED,"reconstructed code/config, no personal data (secret scan clean)"
+repository,,src/reproduce.py,PUBLICATION_APPROVED,"reconstructed code/config, no personal data (secret scan clean)"
+repository,,src/verify.py,PUBLICATION_APPROVED,"reconstructed code/config, no personal data (secret scan clean)"
+repository,,src/historical/CL1-C002_msg001_create_file.py,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL1-C025_msg023_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL1-C026_msg029_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL1-C031_msg031_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL1-C032_msg031_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL1-C035_msg033_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL1-C036_msg035_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL1-C048_msg047_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL1-C050_msg051_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL1-C055_msg057_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL1-C059_msg059_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL1-C070_msg067_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C008_msg005_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C010_msg005_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C011_msg005_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C012_msg005_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C013_msg005_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C015_msg007_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C019_msg009_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C020_msg009_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C021_msg009_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C025_msg011_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C028_msg015_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C029_msg015_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C030_msg017_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C043_msg039_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/historical/CL2-C047_msg051_bash.sh,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated sandbox code; no personal data found; confirm team consent
+repository,,src/legacy/juntar_datos_CL1-C019_claude_version.py,PUBLICATION_REQUIRES_REVIEW,"team script, user folder redacted"
+repository,,src/legacy/juntar_datos_ORIGINAL_local.py,PUBLICATION_REQUIRES_REVIEW,"team script, user folder redacted"
+repository,,tests/test_recovery.py,PUBLICATION_APPROVED,"reconstructed code/config, no personal data (secret scan clean)"

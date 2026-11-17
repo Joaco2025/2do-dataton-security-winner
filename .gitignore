@@ -1,0 +1,29 @@
+# --- Data: never commit raw or derived data (licensing + personal data). See data/README.md ---
+data/raw/
+data/interim/
+data/processed/
+data/restricted/
+*.xlsx
+*.xls
+*.pbix
+*.rar
+*.zip
+# small CSV extracts that are safe are whitelisted explicitly below
+*.csv
+!recovery/*.csv
+!outputs/tables/*.csv
+
+# --- Build / reproduction workspace ---
+build/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Never publish personal material ---
+**/restricted/
+**/ai_conversations/
+**/conversations.json
+*.env
+.env*

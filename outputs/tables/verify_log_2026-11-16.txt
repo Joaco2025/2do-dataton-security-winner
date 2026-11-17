@@ -1,0 +1,10 @@
+A1/out/sonora_seguridad_powerbi.xlsx vs sonora_seguridad_powerbi.xlsx: 12/12 sheets identical  [expected: identical (12 sheets)]
+A2/home/sonora_seguridad_powerbi.xlsx vs sonora_seguridad_powerbi__2026-04-22_1905.xlsx: 18/18 sheets identical  [expected: identical (18 sheets)]
+A2/home/nuevos_datasets_sonora.xlsx vs nuevos_datasets_sonora(1).xlsx: 7/7 sheets identical  [expected: identical (7 sheets)]
+A3/home/sonora_seguridad_powerbi.xlsx vs sonora_seguridad_powerbi(3).xlsx: 25/28 sheets identical  [expected: 26/28 identical; 01 names, 24, 25 differ]
+    01_Maestro_Municipal: differs in ['municipio']
+    24_Proyeccion_Narco_ML: shape (32, 4) vs (11, 8)
+    25_Scatter_Regresion_ML: differs in ['Unnamed: 1']
+B/out/google_trends_sonora_narco.xlsx vs google_trends_sonora_narco(1).xlsx: 6/6 sheets identical  [expected: identical (6 sheets)]
+C/out/sonora_maestro_v5.xlsx vs sonora_maestro_v5(1).xlsx: 33/33 sheets identical  [expected: identical (33 sheets)]
+C/out/sonora_maestro_v6.xlsx vs sonora_maestro_v6.xlsx: 36/36 sheets identical  [expected: identical (36 sheets)]
