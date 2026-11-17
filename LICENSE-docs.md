@@ -12,7 +12,7 @@ appropriate credit, link to the licence, and indicate whether you made changes.
 
 ## Not covered by this licence
 
-- Code in `src/` and `tests/`: MIT (see `LICENSE`).
+- Code in `src/` and `tests/`: MIT (see `LICENSE`; the MIT licence applies to the code only).
 - Third-party data and their derived values (SESNSP, INEGI, CONAPO, CONEVAL, ACLED, Google Trends, Gobierno de
   Sonora, ITAMA): their publishers' terms apply. See `data/README.md` and `docs/08_data_sources.md`.
 - Quoted excerpts of the official event briefing (`Presentación.pdf`), which belong to the organisers.
