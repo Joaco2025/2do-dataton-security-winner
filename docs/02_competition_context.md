@@ -37,7 +37,8 @@ official on the jury was interested in hiring [REPORTED, CL2 msg 68].
 ## Team
 
 - **Equipo 7** [VERIFIED: submission e-mail subject *"Entrega de análisis – Equipo 7 (Datatón Seguridad)"*, prior-audit screenshot].
-- Team size and membership: **[UNKNOWN]** in this material. The chats show at least one teammate who built the
+- Team: **three members, team name "Imagine Team"** [VERIFIED: submission e-mail drafted in ChatGPT, GPT-A `69e82fc2` msg 10, 24 Apr 23:51 local]. Members' names are recorded only in the private evidence archive until all three agree to be named.
+- Roles: the chats show at least one teammate who built the
   "aesthetic" dashboard (CL2 msg 32), and a faculty/industry **advisor (asesor)** who steered the framing
   (CL1 msgs 38–41, 66). The briefing lists that advisor among the event mentors (p.11) [INFERENCE].
 - Most of the material comes from one participant's computer and AI accounts. Contributions from the other

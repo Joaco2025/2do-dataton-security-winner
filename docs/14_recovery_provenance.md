@@ -16,6 +16,7 @@
 |---|---|---|
 | `dataton-seguridad-sonora/` | consolidated **copy** of the project files from the original PC (PC-01), made 2026-11-17 by an earlier audit; has its own MANIFEST/NOT_COPIED | PC-01 Downloads + Dataton folder |
 | `DatatonRecovery_Audit/` | earlier read-only audit (inventory of 451 files, version analysis, experiment catalog, security audit) | PC-01 |
+| two ChatGPT export zips (added 2026-11-18; 342 MB and 1.06 GB) | ChatGPT data exports of two accounts ("GPT-A": 500 conversations, "GPT-B": 2,601). 25 Datatón-related conversations were extracted to the private archive. Only conversation JSON was unpacked; images and audio were not | new in this recovery |
 | `claude-1/`, `claude-2/` | Claude.ai account exports (conversations, artifacts, projects, memories, login metadata) for two accounts | new in this recovery |
 
 The earlier audit had no AI exports and concluded that the pipeline code was missing. This recovery found
@@ -29,6 +30,10 @@ that code in the exports (148 fragments), re-ran it, and reproduced the historic
 4. Timestamp alignment: UTC message times → Hermosillo (UTC−7) and matched against file mtimes. Examples: CL1 msg 33 at 00:47Z ↔ `sonora_seguridad_powerbi(1).xlsx` 17:49 local; CL2 msg 51 at 06:12Z ↔ `sonora_maestro_v6.xlsx` 23:12–23:21 local.
 5. Re-execution of recovered scripts in an isolated copy with sandbox paths re-mapped (inspected first: pandas/openpyxl only, no network), then cell-level comparison with the historical workbooks (`src/verify.py`).
 6. Sensitivity checks (`src/audit_checks.py`).
+
+## Origin of this recovery
+
+The recovery itself was designed in ChatGPT on 2026-11-16 (GPT-B `69e80c4c` msgs 10–15, local evening): an "agentic software archaeology" plan, a forensic agent prompt to run on two PCs, and AI-chat exports as sources. This produced the prior audit and this reconstruction.
 
 ## Preservation
 

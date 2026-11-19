@@ -34,6 +34,8 @@ It records what a reader must know before reusing any number.
 | K4 | "Todo el argumento de Google Trends se rompió" (00:17, 25 Apr) vs a Google Trends section in the final pitch and the reported jury praise for it | CL2 msg 64; CL1 msg 83; CL2 msg 68 |
 | K5 | "Entre 2021 y 2023 ese interés se multiplicó por diez" is approximately right for the **sum of the four artists' rescaled indices** (23.2 → 219.6, ×9.5). But artist interest **fell** in 2025 (≈114) while narcomenudeo peaked (5,233), so the series do not move together | pitch vs sheet `31_GoogleTrends_Artistas_PBI` |
 | K6 | The prior audit attributes all workbooks to "the AI sandbox" generally. This recovery shows two accounts and two branches | CL1 vs CL2 |
+| K7 | The advisor-meeting framing ("donde hay más rezago educativo, también suben indicadores de criminalidad") came from a ChatGPT reading of the matrix that **ChatGPT itself later retracted**: the coefficients are negative | GPT-A `69e82fc2` msgs 3 vs 5–9; CL1 msg 38 |
+| K8 | Jury reaction: "1 me felicitó, los otros no dijeron nada" (13:01) vs "puros elogios" (16:33, after the win) | GPT-A `69ec79d1` msg 14 vs CL2 msg 68 |
 
 ## D. Missing evidence that limits this reconstruction
 

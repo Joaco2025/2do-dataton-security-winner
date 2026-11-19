@@ -284,3 +284,6 @@ repository,,src/historical/CL2-C047_msg051_bash.sh,PUBLICATION_REQUIRES_REVIEW,v
 repository,,src/legacy/juntar_datos_CL1-C019_claude_version.py,PUBLICATION_REQUIRES_REVIEW,"team script, user folder redacted"
 repository,,src/legacy/juntar_datos_ORIGINAL_local.py,PUBLICATION_REQUIRES_REVIEW,"team script, user folder redacted"
 repository,,tests/test_recovery.py,PUBLICATION_APPROVED,"reconstructed code/config, no personal data (secret scan clean)"
+input evidence,A0205,[ChatGPT export zip],PRIVATE_ONLY,"raw AI account export: personal data, 3,000+ unrelated chats"
+input evidence,A0206,[ChatGPT export zip],PRIVATE_ONLY,"raw AI account export: personal data, 3,000+ unrelated chats"
+repository,,src/historical/GPT-B-69e80c4c_msg007_sesnsp_largo.py,PUBLICATION_REQUIRES_REVIEW,verbatim AI-generated code; user folder redacted

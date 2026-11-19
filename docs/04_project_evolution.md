@@ -11,7 +11,7 @@ Conversation shorthand: **CL1** = Claude account A main chat, **CL2** = Claude a
 ```mermaid
 timeline
     title Datatón Seguridad – Equipo 7 (April 2026, local time)
-    Sat 18 – Mon 20 : Event starts : First raw files downloaded (19 Apr)
+    Sat 18 – Mon 20 : Event starts : First raw files downloaded (19 Apr) : 19 Apr 23h28 AGEB heat-map idea in ChatGPT : 20 Apr 19h22 social-factor list (ChatGPT)
     Tue 21 : 12h40 Original concept (marginación → crime, minors) : 16h47 SESNSP merged locally : 17h06 Master table (Claude sandbox) : 17h52 "Marginación narrative does not hold" : 22h10 Advisor + ChatGPT reframe on schooling : 23h06 ENOE informality
     Wed 22 : 13h25 Correlation heatmap (advisor task) : 18h56 New datasets; switch to 2nd Claude account : 19h23 18-sheet master
     Thu 23 : 10h14 Relational table + p-values : 19h10 Dashboard plan, sheets 19–23 : 22h14 Narcocultura hypothesis; "ML" projections
@@ -23,6 +23,7 @@ timeline
 
 | # | Phase | When | Evidence |
 |---|---|---|---|
+| 0 | Exploration in ChatGPT (AGEB heat map, factor list, advisor's first task) | 19 Apr 23:28 – 21 Apr 12:36 | GPT-B `69e5c778`, `69e6df0e` |
 | 1 | Idea and problem framing | 21 Apr 12:40–14:15 | CL1 msgs 0–7 |
 | 2 | Data acquisition and SESNSP merge | 19–21 Apr | file dates; CL1 msgs 8–21 |
 | 3 | First integration (master table, correlations) | 21 Apr 17:06–17:47 | CL1 msgs 22–33, CL1-C025/C035 |
@@ -34,8 +35,8 @@ timeline
 | 9 | Narcocultura hypothesis and Google Trends | 23 Apr 22:14 – 24 Apr 23:38 | CL2 12–14; CL1 56–59; CL2 48–63 |
 | 10 | Projections ("ML") | 23 Apr 22:36; 24 Apr 19:50 | CL2 15–17; CL1 66–67 |
 | 11 | Submission | 24 Apr 23:59 | e-mail screenshot |
-| 12 | Pitch writing | 25 Apr 00:17–11:59 | CL2 64–65; CL1 68–83 |
-| 13 | Presentation and result | 25 Apr afternoon | CL2 66–69 [REPORTED] |
+| 12 | Pitch writing | 25 Apr 00:17–11:59 | CL2 64–65; GPT-A `69ec6e24`, `69ec71c3`, `69ec79d1`; CL1 68–83 |
+| 13 | Presentation and result | 25 Apr, before 13:01 (presentation); win known by 16:32 | GPT-A `69ec79d1` msgs 12–16; CL2 66–69 [REPORTED] |
 | 14 | Post-competition | 26 Apr – Jun 2026 | CL1 84–89; CL2 70–133 |
 
 ## Major turning points
@@ -48,7 +49,11 @@ municipality, with the highest rate of detained minors per 1,000 youths (2.81). 
 stopped being the protagonist and became the "myth" the story would refute.
 
 **TP2 — Advisor reframing (21 Apr 22:10)** [VERIFIED, CL1 msgs 38–41]. The advisor and a ChatGPT reading of the
-correlation matrix led to the slogan *"si pisas una escuela, es menos probable que cometas un delito"*. The
+correlation matrix led to the slogan *"si pisas una escuela, es menos probable que cometas un delito"*.
+**That ChatGPT reading was wrong** [VERIFIED, GPT-A `69e82fc2`]. On 21 Apr 19:20 local it said education variables "tienden a tener
+correlación positiva" with crime. When asked to re-check on 24 Apr 21:04, it read the matrix again and admitted *"me fui con
+un patrón típico sin validar bien tus datos… tu matriz dice lo contrario"* (r = −0.489, −0.312, −0.240). By then the framing was already in
+the dashboard. The
 advisor then widened the question to *why people in Sonora fall into crime*, beyond minors only. Claude
 warned in the same exchange that the municipal data could not support an individual-level claim (ecological fallacy).
 

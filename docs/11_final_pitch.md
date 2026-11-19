@@ -6,14 +6,17 @@
 |---|---|---|---|---|
 | P0 | 24 Apr 17:01 | CL2 msg 33 | advice | Claude recommends writing a 5-minute script while a teammate finishes the dashboard |
 | P1 | 25 Apr 00:18 | CL2 msg 65 | 5-min timed script | requested as "el mejor vendedor del mundo"; hook "El crimen no está donde está la pobreza. Está donde están los jóvenes"; cites r = −0.49 and r = +0.90 |
+| G1–G3 | 25 Apr 00:33 / 00:48 / 01:23 | ChatGPT GPT-A `69ec6e24`, `69ec71c3`, `69ec79d1` msg 1 | hero's-journey scripts from the three latest PDF exports | **G3 introduces the title "Lo que los datos sí nos dejaron ver"** |
+| G4 | 25 Apr 09:37 | GPT-A `69ec79d1` msg 3 | cards | "un toque relajado de Steve Jobs" |
+| G5 | 25 Apr 10:04–10:14 | GPT-A `69ec79d1` msgs 5–7 | cards in **dashboard order** | team: *"no digas un dato que sale en una gráfica de hasta abajo, tiene que seguir la secuencia de aparición"*; the team pastes its own card set (CARD 1 CONTEXTO…) |
 | P2 | 25 Apr 10:24 | CL1 msg 69 | cards | "Del Aula a la Calle", hero's journey + relaxed Steve Jobs tone, "nada de inferencias"; opens on Aconchi |
 | P3 | 25 Apr 10:33–10:54 | CL1 msgs 71–75 | 9–10 cards | team pastes a ChatGPT-style skeleton (Contexto → Pregunta → Lo inesperado…); 3 key municipalities on the map; sources per card; policy close (becas, reinserción) + FAQ card |
 | P4 | 25 Apr 11:03–11:13 | CL1 msgs 77, 79 | FAQ | "¿Cómo podemos hilar todo esto?"; honest answer on projection uncertainty ("bastante, y lo sabemos"; 6 annual points) |
-| P5 | 25 Apr 11:44 | CL1 msg 81 (skeleton in msg 80 by the team) | cards | team: "tu conclusión asume, todo lo tenemos que sacar de los datos"; title **"Lo que los datos sí nos dejaron ver"** |
+| P5 | 25 Apr 11:44 | CL1 msg 81 (skeleton in msg 80 = the ChatGPT G3 structure pasted by the team) | cards | team: "tu conclusión asume, todo lo tenemos que sacar de los datos"; title **"Lo que los datos sí nos dejaron ver"** |
 | **P6** | **25 Apr 11:59** | **CL1 msg 83** | **continuous script** | **last version produced before the presentation – reproduced verbatim below** |
 
 **Status:** P6 is the final *written* pitch [VERIFIED]. Whether it was delivered verbatim, abridged, or split
-among speakers is **[UNKNOWN]**. No recording, slides or speaker notes exist in the material. The organisers
+among speakers is **[UNKNOWN]**. The presenter planned to read **cards from a phone** (GPT-A msgs 8–11, 11:00 local, asking for a card/teleprompter app), so the last ChatGPT card set (G5) and P6 are both candidates. No recording, slides or speaker notes exist in the material. The organisers
 required no slides; the dashboard itself was the visual (stage directions such as *[Abrir el mapa de Sonora]*).
 
 ### How the narrative changed

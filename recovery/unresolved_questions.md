@@ -16,7 +16,7 @@
 
 1. **Publication**: approve (or edit) every file marked PUBLICATION_REQUIRES_REVIEW in `publication_classification.csv`.
 2. ~~Licence~~ — **decided 2026-11-16:** MIT for code, CC BY 4.0 for documentation. The copyright line reads "Equipo 7 – 2do Datatón Sonora (Seguridad) contributors"; adjust it once team attribution (item 3) is settled.
-3. **Team consent and attribution**: the material describes the team, the advisor's role and the pitch. Confirm all members agree and decide how to credit them.
+3. **Team consent and attribution** (roster now known; names kept private): the material describes the team, the advisor's role and the pitch. Confirm all members agree and decide how to credit them.
 4. **Outcome wording**: currently "reported winner, partly corroborated by official publication of the dashboard". It becomes verified with an organiser statement of the placement (M17).
 5. **Final pitch text** (`docs/11_final_pitch.md`): publish verbatim with annotations, or summarise.
 6. **ITAMA data owner**: whether to notify the publisher that the public workbook contains minors' names.

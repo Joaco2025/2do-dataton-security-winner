@@ -22,9 +22,9 @@ datasets the organisers proposed plus census, poverty, labour, juvenile-justice 
 
 ## 3. The original idea and how it evolved
 
-It began as *"marginación → delincuencia, with a focus on minors"*. Within hours the team saw that absolute figures
+It began in ChatGPT on 19–21 April as an AGEB marginación heat-map idea and the advisor's first assignment, *"marginación → delincuencia, with a focus on minors"*. Within hours the team saw that absolute figures
 merely tracked population and that marginación correlated only weakly (r = 0.32) with crime rates, so they
-abandoned that thesis. An advisor steered them toward schooling. Narcomenudeo's near-doubling (2020→2025) and
+abandoned that thesis. An advisor steered them toward schooling, partly on the strength of a ChatGPT reading of the correlation matrix that ChatGPT later retracted. Narcomenudeo's near-doubling (2020→2025) and
 the profile of interned minors (77 % drug offences, mean age 16) then brought in a "narco-culture" angle measured
 with Google Trends, plus trend projections added partly to impress the jury. At midnight before presenting, the
 team wrote that the Google Trends argument "se rompió". The final pitch kept it as coexistence, not cause.

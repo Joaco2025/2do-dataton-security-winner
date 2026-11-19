@@ -5,13 +5,14 @@ Local time (UTC−7). Source = conversation and message index (CL1 = account A m
 
 | ID | When | Decision | Previous → new approach | Reason given | Evidence | Consequence | Impl. |
 |---|---|---|---|---|---|---|---|
-| D01 | 21 Apr 12:40 | Study marginación + social factors → crime, emphasis on minors | — | official question; team plan | CL1 0 | defined first datasets | yes, later revised |
+| D00 | 19–21 Apr | Explore AGEB marginación heat map; advisor assigns marginación–crime correlation | — | suggested datasets; advisor | GPT-B `69e5c778`, `69e6df0e` |
+| D01 | 21 Apr 12:40 | Study marginación + social factors → crime, emphasis on minors | — | official question; advisor's task; team plan drafted in ChatGPT 12:36 | CL1 0; GPT-B `69e6df0e` msg 4 | defined first datasets | yes, later revised |
 | D02 | 21 Apr 13:56 | Build indicators from Census ITER rather than SEP PDF | PDF tables → microdata | rigour, granularity (Claude's recommendation, team agreed) | CL1 4–7 | ITER becomes backbone | yes |
 | D03 | 21 Apr 16:39 | Merge SESNSP yearly files locally with Python | 11 uploads → 1 file | upload size | CL1 8–19 | `juntar_datos.py` | yes |
 | D04 | 21 Apr 17:02 | Let Claude build the full pipeline and export a styled Excel for Power BI | — | "a darle" (speed) | CL1 22–23 | all later work in sandboxes | yes |
 | D05 | 21 Apr 17:42 | Add % and absolute 15–17 not attending | only 12–14 + % attending | most detained minors are 15–17 (team insight) | CL1 30–33 | variable that drives the final story | yes |
 | D06 | 21 Apr 17:52 | Abandon "más marginación → más delitos" | marginación thesis → search for another angle | absolute numbers mirror population; weak r | CL1 34–35 | Guaymas per-capita anomaly noticed | yes |
-| D07 | 21 Apr 22:10 | Frame: "si pisas una escuela, es menos probable que cometas un delito" | — | advisor + ChatGPT reading of matrix | CL1 38–39 | Claude warns about ecological fallacy | yes (pitch spirit) |
+| D07 | 21 Apr 22:10 | Frame: "si pisas una escuela, es menos probable que cometas un delito" | — | advisor + ChatGPT reading of matrix (**later retracted by ChatGPT**, GPT-A `69e82fc2`) | CL1 38–39 | Claude warns about ecological fallacy | yes (pitch spirit) |
 | D08 | 21 Apr 22:14 | Broaden to "por qué la gente en Sonora cae en actividades delictivas" | minors-only → general | advisor | CL1 40–41 | ENOE, CONEVAL, ACLED sought | partially |
 | D09 | 21 Apr 23:01 | Use ENOE tabulated indicators, not microdata | 40–50 MB microdata → tabulados | size | CL1 42–47 | state-level only | yes |
 | D10 | 22 Apr 13:25 | Heatmap of correlations + crime trends by type | — | advisor's first two tasks | CL1 50–51 | sheet 12 long format | yes |

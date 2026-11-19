@@ -37,5 +37,7 @@ The pitch request at 25 Apr 10:23 attaches the last one, which is therefore the 
 
 ## Local script versions
 
-`juntar_datos.py`: Claude's version (CL1 msg 19, UTF-8-sig) → team's local version (adds latin-1 fallback,
-stdout reconfigure, `A�o` header fix, utf-8-sig output). Both are in `src/legacy/`.
+`juntar_datos.py`: Claude's version (CL1 msg 19, 16:45 local, UTF-8-sig). The team then took it to ChatGPT (GPT-B `69e80c4c`,
+16:46–16:47), and **ChatGPT's answer is the local file verbatim** (latin-1 fallback, stdout reconfigure, `A�o` fix, utf-8-sig output).
+ChatGPT also wrote the long-format conversion (msg 7, 16:49), which reproduces `sesnsp_largo_2015_2025.csv` exactly.
+Files: `src/legacy/` and `src/historical/GPT-B-69e80c4c_msg007_sesnsp_largo.py`.

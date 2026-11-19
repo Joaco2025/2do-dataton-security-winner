@@ -1,12 +1,16 @@
 event_id,date_local,date_precision,confidence,event,decisions,evidence,code_artifacts,experiments
 T01,2026-04-18,estimated,HIGH,"Event window opens: 2do Datatón (Gobierno de Sonora, Agencia de Transformación Digital); teams of 6 per category build a Power BI dashboard; category Seguridad",official briefing,"docs/Presentación.pdf p.3,9",,
 T02,2026-04-19 22:25,exact (file mtime),HIGH,"First raw files on disk: DELITOS_DEL_2020_AL_2025.xlsx, marginación municipal 2020, ITAMA, DATOSDATATON.docx",,inventory A* (data/raw),,
+T02a,2026-04-19 23:28,exact (UTC 04-20 06:28),HIGH,AGEB marginación heat-map idea explored in ChatGPT; ENASJUP proposed to match ITAMA data brought by a teammate,D00,GPT-B 69e5c778,,
+T02b,2026-04-21 11:20–12:36,exact,HIGH,Advisor assigns marginación–crime correlation; plan drafted in ChatGPT 4 min before Claude,"D00,D01",GPT-B 69e6df0e msgs 2–5,,
 T03,2026-04-21 12:40,exact (UTC 19:40),HIGH,"Original concept stated to Claude: marginalidad + factores sociales → incidencia delictiva, énfasis en menores (5-step methodology, gov colour palette)",D01,CL1 msg 0,CL1-C002,
 T04,2026-04-21 13:20,exact,HIGH,Inventory of 7 uploaded files; team asks whether to rebuild PDF indicators from primary sources → yes (ITER Censo 2020),D02,CL1 msgs 2–7,,
 T05,2026-04-21 16:39–16:47,exact,HIGH,"SESNSP yearly CSVs merged locally with juntar_datos.py after 4 debugging rounds (path escapes, *.xlsx glob, BOM)",D03,CL1 msgs 8–19; src/juntar_datos.py mtime,CL1-C009..C019,E01
+T05a,2026-04-21 16:46–16:54,exact,HIGH,ChatGPT rewrites juntar_datos.py (= local file) and writes the long-format conversion,D03,GPT-B 69e80c4c,GPT-B-69e80c4c_msg007,E01
 T06,2026-04-21 17:06,exact,HIGH,"Pipeline in Claude sandbox builds sonora_seguridad_powerbi.xlsx (8 sheets, master 72×43)",D04,CL1 msg 23,CL1-C025,"E02,E03"
 T07,2026-04-21 17:44–17:49,exact,HIGH,Team points out 15–17 non-attendance was missing → pct/abs_NO_asiste_15a17 added (master 72×45); file saved locally 17:49,D05,CL1 msgs 30–33; sonora_seguridad_powerbi(1).xlsx,"CL1-C031,C035",E04
 T08,2026-04-21 17:52,exact,HIGH,"""no shit sherlock"": team recognises absolute counts track population; original ""más marginación → más delito"" narrative declared not supported; per-capita analysis (Guaymas anomaly)",D06,CL1 msgs 34–35,CL1-C036,E05
+T08a,2026-04-21 19:18–19:20,exact,HIGH,"ChatGPT reads the correlation matrix as ""education ↔ crime positive"" (wrong; retracted 24 Apr 21:04)",D07,GPT-A 69e82fc2,,
 T09,2026-04-21 22:10,exact,HIGH,"Advisor + ChatGPT read the correlation matrix → framing ""si pisas una escuela, es menos probable que cometas un delito""; then advisor broadens to ""por qué la gente en Sonora cae en actividades delictivas""","D07,D08",CL1 msgs 38–41 (GPT-1 quoted),,
 T10,2026-04-21 23:06,exact,HIGH,ENOE informality (state level) added: sheets 09–11,D09,CL1 msg 47,CL1-C048,E06
 T11,2026-04-22 13:25,exact,HIGH,Advisor tasks: correlation heatmap in Power BI + crime-type trend; long-format heatmap sheet 12 (12-sheet workbook saved 13:43),D10,CL1 msgs 50–51,CL1-C050,E03
@@ -24,14 +28,18 @@ T22,2026-04-24 16:15–17:01,exact,HIGH,Two dashboards (aesthetic vs useful) com
 T23,2026-04-24 19:44–19:53,exact,HIGH,"Advisor feedback (gradient, becas universales, 10-year projection) → branch A: polynomial deg-2 projection to 2035 (v5); code version not recovered",D20,CL1 msgs 66–67; CL2 msg 36; sonora_maestro_v5.xlsx,CL1-C067..C070,E09b
 T24,2026-04-24 22:38–22:45,exact,HIGH,Branch B: reduced 5×4 correlation matrix with p-values (v5(1)),D21,CL2 msgs 38–39,CL2-C043,E11
 T25,2026-04-24 23:09–23:38,exact,HIGH,"Google Trends artist chart (v6, 23:12–23:21); Power BI secondary-axis limit → two side-by-side charts","D22,D27",CL2 msgs 48–63,CL2-C047,E10
+T26a,2026-04-24 23:51,exact,HIGH,"Submission e-mail drafted in ChatGPT (team of 3, ""Imagine Team"")",,GPT-A 69e82fc2 msgs 10–11,,
 T26,2026-04-24 23:59,exact (screenshot),HIGH,"Submission e-mail ""Entrega de análisis – Equipo 7 (Datatón Seguridad)"" with attachment test.pbix",,prior audit: restricted screenshot,,
+T30,2026-04-25 (afternoon),estimated,MEDIUM,5-minute presentation before 3 category judges (official format); actual delivery not recorded,,Presentación.pdf p.3,,
 T27,2026-04-25 00:17,exact,HIGH,"""se nos acabó el tiempo, y todo el argumento de google trends se rompió"" – first pitch requested (salesman tone)",D23,CL2 msgs 64–65,,
+T29a,2026-04-25 00:33–10:14,exact,HIGH,"ChatGPT pitch drafts G1–G5; title ""Lo que los datos sí nos dejaron ver"" (01:23); cards in dashboard order",D25,GPT-A 69ec6e24/71c3/79d1,,
 T28,2026-04-25 00:47–01:22,exact (mtime),HIGH,"Post-deadline re-saves: test.pbix 00:47, test verdadero.pbix 01:14, last PDF export 01:22",,"dashboard/pbix, exports",,
 T29,2026-04-25 10:23–11:59,exact,HIGH,"Pitch iterations in account A: hero's journey + Steve Jobs tone, ""nada de inferencias""; team supplies skeleton ""Lo que los datos sí nos dejaron ver""; continuous script delivered 11:59",D24,CL1 msgs 68–83,,
-T30,2026-04-25 (afternoon),estimated,MEDIUM,5-minute presentation before 3 category judges (official format); actual delivery not recorded,,Presentación.pdf p.3,,
+T30a,2026-04-25 13:01,exact,MEDIUM,"Presentation over: ""1 judge congratulated me, the others said nothing""",,GPT-A 69ec79d1 msg 14,,
 T31,2026-04-25 16:32,exact (message time),MEDIUM,"Team member reports: ""ganamos nuestra categoría de seguridad""; jury praised narcomenudeo–narcocultura link; a security official reportedly offered a job (REPORTED)",,CL2 msgs 66–69,,
+T31a,2026-04-25 17:06,exact,MEDIUM,"""ganamos!!!!"" (third independent report); tablets per member handed over the same day (REPORTED)",,GPT-A 69ec79d1 msg 16; 69f04263,,
 T32,2026-04-26 02:30,exact (mtime),LOW,test(1).pbix saved (relationship to submission unknown),,dashboard/pbix,,
 T33,2026-04-26 23:55,exact (UTC 04-27 06:55),MEDIUM,"Second report of the win in account A with prize list (USD 5,000 AWS credits, USD 200 Claude credits, Galaxy Tab S10 Lite) – REPORTED",,CL1 msgs 84–87,,
-T34,2026-05-29 11:50,exact,LOW,"Post-event question ""¿cómo se usaron las correlaciones de Pearson?"" – Claude explains pandas .corr()",,CL1 msgs 88–89,CL1-C071,
 T35,2026-05-13 → 2026-06-09,exact,LOW,Win used in CV and internship outreach (details PRIVATE_ONLY),,CL2 msgs 74–129,,
+T34,2026-05-29 11:50,exact,LOW,"Post-event question ""¿cómo se usaron las correlaciones de Pearson?"" – Claude explains pandas .corr()",,CL1 msgs 88–89,CL1-C071,
 T36,2026-11-16/17,exact,HIGH,Recovery: prior read-only audit on PC-01; consolidated copy; this reconstruction with Claude exports,,"DatatonRecovery_Audit/, this repo",,

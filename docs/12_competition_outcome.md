@@ -7,6 +7,11 @@
 | The dashboard was e-mailed before the deadline (24 Apr 23:59, attachment `test.pbix`) | VERIFIED | e-mail screenshot (prior audit; restricted, contains personal data) |
 | The team presented on 25 Apr (5 min, 3 judges) | INFERENCE | official format + pitch written 11:59 that morning + later report |
 | **Equipo 7 won the Seguridad category** | **REPORTED** | team member, CL2 msg 66 (25 Apr 16:32 local): *"ganamos nuestra categoría de seguridad, se hizo"*; repeated independently in account A, CL1 msg 84 (26 Apr 23:55): *"ganamos!!!"*; account B memory profile (Oct 2026) |
+| **Immediately after presenting:** *"del jurado, 1 me felicitó, y los otros no dijeron nada"* | REPORTED (first-hand, 25 Apr 13:01–13:02 local) | GPT-A `69ec79d1` msgs 12–15 |
+| Third independent report of the win: *"Pues te equivocaste, ganamos!!!!"* | REPORTED (25 Apr 17:06 local) | GPT-A `69ec79d1` msg 16; repeated 26 Apr 19:52 ("gané, por cierto") in GPT-A `69eecef2` |
+| Prizes detailed: one Galaxy Tab S10 Lite **per team member, handed over the same day**; AWS and Claude credits still pending on 27 Apr | REPORTED | GPT-A `69f04263` msg 18 |
+| Closing ceremony with press cameras, the state security secretary and the university rector present | REPORTED | GPT-A `69f04263` msg 12 |
+| Searches by ChatGPT on 27 Apr and 12 Aug found **no public list of winners**; an official event page was identified (`oficialiamayor.sonora.gob.mx`, page 173) | VERIFIED (that the searches found none) | GPT-A `69f04263`; GPT-B `69e98ba6` msgs 2–5 |
 | A photo of the team with the prize is published on Instagram | REPORTED (team member, 2026-11-16) | not located or reviewed in this recovery; the organisers never stated "this team won" in so many words |
 | Prizes: USD 5,000 AWS credits, USD 200 Claude credits, Samsung Galaxy Tab S10 Lite | REPORTED | CL1 msg 84, CL2 msg 70 (consistent) |
 | Judges' reaction: "puros elogios"; everyone liked the link between the rise of narcomenudeo and the rise of narco-culture | REPORTED | CL2 msg 68 |
@@ -28,7 +33,8 @@ The table separates what is documented from what is interpretation.
 
 ### Documented
 
-- The jury liked the **narcomenudeo ↔ narco-culture link** [REPORTED, CL2 msg 68].
+- The jury liked the **narcomenudeo ↔ narco-culture link** [REPORTED, CL2 msg 68, 25 Apr 16:33].
+- Right after the presentation the presenter reported only **one of three judges** congratulating them (GPT-A, 13:01). The later "puros elogios" summary (16:33) was written after the win was known.
 - The official criteria weight **analysis 25, problem understanding 20, dashboard 20, storytelling 20, recommendations 15** [VERIFIED].
 
 ### Analytical interpretation (mine, mapped to the official criteria) [INFERENCE]

@@ -1,10 +1,9 @@
 """Merge the SESNSP yearly municipal-incidence CSVs and build the long (monthly) format.
 
 RECONSTRUCTED CODE (2026-11 recovery). Portable rewrite of the team's src/legacy/juntar_datos_ORIGINAL_local.py
-(hard-coded Windows paths removed). The long-format step reproduces the historical
-`sesnsp_largo_2015_2025.csv` layout, whose original code was NOT recovered: during the recovery it was
-verified that the historical long file holds exactly the 56,312 non-zero month cells of the wide file,
-so zero-case months are dropped here as well.
+(hard-coded Windows paths removed). The long-format step follows the original ChatGPT code
+(src/historical/GPT-B-69e80c4c_msg007_sesnsp_largo.py), which keeps only the 56,312 non-zero month cells.
+That original reproduces the historical file exactly, including row order; this rewrite sorts the rows.
 
 Usage: python src/merge_sesnsp.py <folder with 2015.csv ... 2025.csv> <output folder>
 """
