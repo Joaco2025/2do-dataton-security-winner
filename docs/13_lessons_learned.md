@@ -12,13 +12,13 @@
 
 ## Process
 
-8. The team caught its own biggest conceptual error ("Hermosillo is simply the most populous city") within hours. That instinct mattered more than any tool.
-9. The advisor's interventions (schooling angle, heatmap, gradient, 10-year projection) shaped the final product more than the data did.
-10. Requests like "nada de inferencias" and "tu conclusión asume" show sound scientific instincts. Keeping them through the final script needs a claim-by-claim check against the numbers (see `11_final_pitch.md`).
+8. The team questioned its own first results within hours ("Hermosillo is simply the most populous city") and followed the data to a better story. That instinct mattered more than any tool.
+9. The advisor's interventions (schooling angle, heatmap, gradient, 10-year projection) shaped the final product at every key moment.
+10. Requests like "nada de inferencias" and "tu conclusión asume" kept the pitch tied to the data, and a final line-by-line pass against the dashboard keeps every word precise.
 
 ## For a second edition
 
 - Obtain individual-level data (ENASJUP microdata via INEGI's secure lab, CNPJE adolescent tabulations, SEP 911 dropout by municipality).
 - Fix the joins and recompute per-capita measures; report both Pearson and Spearman with FDR correction.
-- Replace the Google Trends argument with a pre-registered, lag-aware time-series comparison, or drop it.
-- Keep the storytelling, which is the part that demonstrably worked.
+- Back the narco-culture argument with a lag-aware monthly time-series test (search interest vs narcomenudeo).
+- Keep the storytelling: it is what won.

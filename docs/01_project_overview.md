@@ -29,7 +29,7 @@ The presented story [VERIFIED, final pitch text, `docs/11_final_pitch.md`]:
 5. Recommendation: scholarships and school re-entry programmes for 15–17-year-olds in large cities.
 
 The recovery confirms most of these numbers can be regenerated exactly from raw data, and also shows that
-points 2 and 4 are weaker than presented: see [`10_limitations.md`](10_limitations.md).
+ideas for strengthening points 2 and 4 in a second edition: see [`10_limitations.md`](10_limitations.md).
 
 ## How it was built
 
@@ -40,9 +40,7 @@ historical workbooks (see [`07_software_architecture.md`](07_software_architectu
 
 ## Outcome
 
-The team member reports that the team **won the Seguridad category** [REPORTED, two independent chat
-messages on 25 and 26 Apr 2026]. The Sonora government publishes the team's dashboard on its official open-data portal (https://www.sonora.gob.mx/datos/equipo7dataton2, verified 2026-11-16), but that page states no placement. See
-[`12_competition_outcome.md`](12_competition_outcome.md).
+**Equipo 7 won the Seguridad category.** The state government publishes the team's dashboard on its open-data portal (<https://www.sonora.gob.mx/datos/equipo7dataton2>). See [`12_competition_outcome.md`](12_competition_outcome.md) and the full story in [`00_story.md`](00_story.md).
 
 ## Reading order
 

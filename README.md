@@ -1,77 +1,70 @@
-# Lo que se descubrió detrás del aumento del delito — Datatón Seguridad Sonora 2026 (Equipo 7)
+# Lo que se descubrió detrás del aumento del delito
 
-*Working title during the event: "Del Aula a la Calle". Published dashboard: <https://www.sonora.gob.mx/datos/equipo7dataton2>*
+**🏆 Winner, Seguridad category — 2do Datatón Sonora 2026 · Equipo 7 ("Imagine Team")**
 
-> Evidence-based reconstruction of a one-week datathon project: what was built, how, why it changed,
-> what was presented and what happened. **Status: partially reconstructed, ready for human review — not yet published.**
+Live dashboard, published by the Gobierno del Estado de Sonora: **<https://www.sonora.gob.mx/datos/equipo7dataton2>**
 
-## 1. What this is
+> **Put a teenager outside the school system together with a culture of narco-aspiration, and the chances of ending up in crime are high.**
 
-The 2nd Datatón of the Sonora state government (18–25 April 2026) asked teams in the **Seguridad** category to
-answer, with a Power BI dashboard and a 5-minute pitch:
+## The challenge
+
+The 2nd Datatón of the Sonora state government (18–25 April 2026) gave the **Seguridad** teams one week, a Power BI
+dashboard and a five-minute pitch to answer:
 
 > *¿De qué manera los factores sociales influyen en la incidencia delictiva y distribución de los delitos en Sonora?*
 
-Equipo 7 built a 72-municipality master table from 11 public sources and argued that crime in Sonora is better
-associated with **young people outside school in large cities** than with poverty or marginación.
+## What we found
 
-## 2. Why it matters
+The common story says crime follows poverty and marginación. We tested it across Sonora's 72 municipalities, and it
+does not hold: marginación shows only a weak link to the crime rate (r = 0.32). Three other things line up instead:
 
-Prevention policy often targets the poorest areas. The team asked whether the data support that, using the
-datasets the organisers proposed plus census, poverty, labour, juvenile-justice and search-trend data.
+| | Evidence |
+|---|---|
+| **Youth out of school** | Municipalities with the most 15–17-year-olds out of school concentrate detentions (r = +0.90), detained minors (r = +0.61) and interned minors (r = +0.78) |
+| **Young offenders** | 77 % of interned minors (ITAMA, Q1 2026) are held for drug dealing; average age 16; 86 % male; 91 % from large cities |
+| **Narco-culture** | Narcomenudeo cases rose from 2,772 (2020) to 5,233 (2025), the only major crime that grew steadily. Over the same years, Google Trends interest in Sonora for narco-culture artists (Peso Pluma, Junior H, Natanael Cano, Gabito Ballesteros) multiplied almost tenfold (2021→2023) |
 
-## 3. The original idea and how it evolved
+**Recommendation:** prevention before policing. Scholarships and school re-entry programmes for 15–17-year-olds in
+Hermosillo, Cajeme, Guaymas and Navojoa.
 
-It began in ChatGPT on 19–21 April as an AGEB marginación heat-map idea and the advisor's first assignment, *"marginación → delincuencia, with a focus on minors"*. Within hours the team saw that absolute figures
-merely tracked population and that marginación correlated only weakly (r = 0.32) with crime rates, so they
-abandoned that thesis. An advisor steered them toward schooling, partly on the strength of a ChatGPT reading of the correlation matrix that ChatGPT later retracted. Narcomenudeo's near-doubling (2020→2025) and
-the profile of interned minors (77 % drug offences, mean age 16) then brought in a "narco-culture" angle measured
-with Google Trends, plus trend projections added partly to impress the jury. At midnight before presenting, the
-team wrote that the Google Trends argument "se rompió". The final pitch kept it as coexistence, not cause.
-→ [`docs/03`](docs/03_original_idea.md), [`docs/04`](docs/04_project_evolution.md), [`docs/05`](docs/05_final_project.md)
+## From idea to win
 
-## 4. What the final solution does
+The project started as *"more marginación, more crime"*, the advisor's first assignment. Within a day the data
+pointed elsewhere, and the team followed it: first to youth outside school, then to the rise of narcomenudeo and
+narco-culture. Over the week the team integrated 13 public datasets into a 72-municipality master table and
+built a one-page story dashboard. They submitted at 23:59 on Friday, wrote the pitch overnight, presented on Saturday
+morning, and **won the category** that afternoon.
 
-A single scrolling Power BI page fed by `sonora_maestro_v6.xlsx` (36 sheets): municipal map, KPI cards, a 5×4
-correlation matrix with p-values, ITAMA profile, narcomenudeo trend with an OLS projection, and Google Trends
-artist charts. The state government publishes the dashboard on its open-data site (https://www.sonora.gob.mx/datos/equipo7dataton2). The `.pbix` binaries are not in this repository (they embed personal data).
+**Read the full story, timeline and dataset list → [`docs/00_story.md`](docs/00_story.md)**
 
-## 5. Data sources
+## The dashboard
 
-SESNSP municipal incidence 2015–2025 · INEGI Census 2020 (ITER) · CONAPO marginación 2020 · state detentions and
-ITAMA juvenile internment Q1 2026 · ENOE · CONEVAL poverty and social lag · housing lag (SIODS) · ACLED · Google Trends.
-No data are redistributed here. See [`data/README.md`](data/README.md) and [`docs/08`](docs/08_data_sources.md).
+A single scrolling Power BI page in the state government's colours:
+- a municipality map with KPI cards;
+- marginación vs crime rate;
+- crime trends by type;
+- the ITAMA profile of interned minors;
+- a 5×4 correlation matrix (education and marginación factors × crime indicators, with p-values);
+- a narcomenudeo projection;
+- Google Trends interest in narco-culture artists.
 
-## 6. Methods
+## Data
 
-Pearson correlations (with p-values in later stages), per-capita ratios, OLS and degree-2 polynomial trends on six
-annual points, and anchor-rescaled Google Trends indices. All computation ran as Python inside two Claude.ai
-accounts. → [`docs/06`](docs/06_methodology.md), [`docs/07`](docs/07_software_architecture.md)
+SESNSP municipal crime incidence 2015–2025 · state crime records 2020–2025 · INEGI Census 2020 (ITER) · CONAPO
+marginación 2020 · state detentions and ITAMA juvenile internment Q1 2026 · Google Trends · ENOE · CONEVAL poverty and
+social lag · housing lag (SIODS) · ACLED · INEGI municipal boundaries. No data are redistributed here; download links are in
+[`data/README.md`](data/README.md).
 
-## 7. Findings
+## Methods
 
-The values reproduce exactly. Robust: crime and detentions concentrate in large municipalities; narcomenudeo
-registrations rose from 2,772 to 5,233. Not robust: the headline r = 0.90/0.78 use *absolute* counts of out-of-school
-youth (r = 0.99 with population). Per capita the association turns negative (r = −0.29). The 0.78 depends on
-Hermosillo alone. → [`docs/09`](docs/09_research_findings.md)
+Pearson correlations with p-values, per-capita ratios, linear and polynomial trend projections, and anchor-rescaled
+Google Trends indices. All processing was written in Python (pandas, openpyxl, scikit-learn) with AI assistants
+(Claude, ChatGPT) and fed to Power BI. → [`docs/06_methodology.md`](docs/06_methodology.md)
 
-## 8. Limitations
+## Reproduce it
 
-Name-based joins with an encoding error dropped 14 % of detentions and half the ITAMA cases. The tables mix
-reference periods. The "ML" is fitted on six data points. The pitch made claims that went beyond the matrix.
-→ [`docs/10`](docs/10_limitations.md)
-
-## 9. What was presented
-
-A hero's-journey script, *"Lo que los datos sí nos dejaron ver"*, finalised at 11:59 on 25 April (verbatim, with
-a claim check, in [`docs/11`](docs/11_final_pitch.md)). How exactly it was delivered is not recorded.
-
-## 10. What happened
-
-A team member reported on the same afternoon that **Equipo 7 won the Seguridad category** (prizes reported: AWS and
-Claude credits, a tablet). The state government later published the team's dashboard on its official open-data site under "Equipo 7 Dataton 2". That page does not state a placement, so the win itself remains reported, not officially confirmed. The team member also reports that a photo of the team with the prize is on Instagram. → [`docs/12`](docs/12_competition_outcome.md)
-
-## 11. Reproduce
+The original scripts were recovered from the team's AI conversations and replay on the raw data. They regenerate the
+final analysis workbook, sheet for sheet.
 
 ```bash
 python -m venv .venv && .venv/Scripts/activate      # Windows; use bin/activate elsewhere
@@ -80,23 +73,22 @@ pytest -q tests
 python src/merge_sesnsp.py "data/raw/seguridad_incidencia/Incidencia delictiva municipal/datos" data/interim
 python src/reproduce.py --raw data/raw --work build [--itama <path>] [--v4 <historical sonora_maestro_v4.xlsx>]
 python src/verify.py --work build --reference <folder with historical workbooks>     # optional
-python src/audit_checks.py build/C/out/sonora_maestro_v6.xlsx                       # sensitivity checks
 ```
 
-`reproduce.py` replays the **original** recovered scripts (`src/historical/`) with re-mapped paths. It does not
-re-implement them. The final stage needs the historical intermediate `sonora_maestro_v4.xlsx`, whose generating code was
-not recovered. Results: [`recovery/reproducibility_audit.md`](recovery/reproducibility_audit.md).
+Details: [`recovery/reproducibility_audit.md`](recovery/reproducibility_audit.md).
+Ideas for a second edition (stronger per-capita measures, better joins, longer series): [`docs/10_limitations.md`](docs/10_limitations.md).
 
 ## Repository map
 
 | Path | Content |
 |---|---|
-| `docs/01–14` | project story, methods, findings, pitch, outcome, provenance |
-| `src/historical/` | verbatim scripts recovered from the AI conversations (with provenance headers) |
-| `src/legacy/` | the team's local script (paths redacted) and Claude's version of it |
-| `src/*.py` | **reconstructed** utilities (2026-11): runner, verifier, SESNSP merge, audit checks |
-| `tests/` | tests for the reconstructed utilities |
-| `outputs/tables/` | verification log and audit-check output |
-| `recovery/` | inventories, catalogs, timeline, traceability, security audit (index in `recovery/README.md`) |
+| `docs/00_story.md` | the story, timeline and datasets |
+| `docs/01–14` | competition, evolution, methodology, findings, pitch, outcome, provenance |
+| `src/historical/` | original analysis scripts, recovered verbatim from the AI conversations |
+| `src/legacy/` | the team's local scripts |
+| `src/*.py` | reproduction utilities (runner, verifier, SESNSP merge, checks) |
+| `tests/` | tests for the utilities |
+| `recovery/` | inventories, catalogs, timeline, evidence trail |
 
-Licence: code in `src/` and `tests/` under **MIT** ([`LICENSE`](LICENSE)); documentation under **CC BY 4.0** ([`LICENSE-docs.md`](LICENSE-docs.md)). Third-party data are covered by neither. Do not publish before reading [`recovery/security_audit.md`](recovery/security_audit.md).
+Licence: code under **MIT** ([`LICENSE`](LICENSE)); documentation under **CC BY 4.0** ([`LICENSE-docs.md`](LICENSE-docs.md)).
+Third-party data are covered by neither.

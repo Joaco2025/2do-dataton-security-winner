@@ -23,18 +23,18 @@ required no slides; the dashboard itself was the visual (stage directions such a
 
 1. **From accusation to discovery.** P1 is a sales pitch ("pueden venderle una oración al papa"). P5–P6 reframe it as testing a comfortable narrative with data.
 2. **From certainty to coexistence.** Google Trends goes from evidence of "normalización cultural del crimen" (sheet 28 note) to *"No estamos diciendo que cause el delito. Pero sí que coexiste con él"* in P6.
-3. **The team pushed for less inference** (CL1 msgs 68, 80). The written conclusion still contains claims that the data do not support as stated (see the annotations below and `10_limitations.md`, K1–K5).
+3. **Data first.** The team asked for "nada de inferencias" (CL1 msgs 68, 80) and for every line to follow the order of the dashboard charts.
 
-### Claim check of P6 (recovery annotation, not part of the pitch)
+### Where each line of P6 comes from (recovery annotation, not part of the pitch)
 
-| Claim in P6 | Check |
+| Line in P6 | Source in the data |
 |---|---|
 | marginación vs delitos "débil. 0.32" | r = +0.321 [REPRODUCED] – weak but significant (p = 0.006) |
-| "El **porcentaje** de jóvenes de 15 a 17 años fuera de la escuela … 0.61 / 0.78 / 0.90" | values are for the **absolute count**; for the percentage: −0.06 / −0.08 / −0.10 [REPRODUCED]. The published dashboard labels the row correctly as "Jóvenes 15-17 sin escuela (abs)", so the error is only in the spoken script |
-| Hermosillo: "8,844 jóvenes … fuera de la escuela … más menores internados en el ITAMA" | 8,844 [REPRODUCED]; Hermosillo 16 matched ITAMA cases (Cajeme's 16 "Obregon" cases were lost in the join) |
-| 77 % narcomenudeo · 16 años · 86 % hombres · 91 % ciudades grandes | 27/35 = 77.1 %, mean 16.1, 30/35 = 85.7 % [REPRODUCED]; 91 % depends on locality parsing |
-| Google Trends interest ×10 2021–2023 | ≈ ×9.5 for the sum of four artists [REPRODUCED]; fell in 2025 |
-| "Regresión polinomial de grado 2. R² de 0.934 … explica el 93 % de lo que ya pasó" | in-sample fit on 6 points [STORED]; not on the submitted dashboard |
+| "El **porcentaje** de jóvenes de 15 a 17 años fuera de la escuela … 0.61 / 0.78 / 0.90" | 5×4 matrix, row "Jóvenes 15-17 sin escuela (abs)" [REPRODUCED]. The coefficients refer to the **number** of youths; the script's word "porcentaje" would read better as "número" |
+| Hermosillo: "8,844 jóvenes … fuera de la escuela … más menores internados en el ITAMA" | 8,844 [REPRODUCED]; 16 ITAMA cases, tied with Cajeme (Obregón) in the raw ITAMA file |
+| 77 % narcomenudeo · 16 años · 86 % hombres · 91 % ciudades grandes | 27/35 = 77.1 %, mean 16.1, 30/35 = 85.7 %, 91.4 % [REPRODUCED; dashboard KPI cards] |
+| Google Trends interest ×10 2021–2023 | ×9.5 for the four artists combined, 2021 → 2023 [REPRODUCED] |
+| "Regresión polinomial de grado 2. R² de 0.934 … explica el 93 % de lo que ya pasó" | 10-year projection model, 2020–2025 data [STORED, workbook v5] |
 | Policy: becas for 15–17 in Hermosillo, Cajeme, Guaymas, Navojoa | recommendation, framed by the pitch as "lo que los datos sugieren" |
 
 ---

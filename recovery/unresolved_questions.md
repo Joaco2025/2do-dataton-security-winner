@@ -27,6 +27,6 @@
 
 - Team members and roles? Who built the aesthetic dashboard?
 - Was the pitch P6 delivered as written? By whom?
-- Any jury feedback beyond "puros elogios"? Scores?
+- Any written jury feedback or scores?
 - Were the prizes delivered (AWS/Claude credits, tablet)?
 - `Son_10-15.zip` was opened in this recovery: one workbook (`Concentrado municipal` 90×99, `Concentrado estatal` 45×97) that looks like CONEVAL municipal poverty for Sonora 2010–2015 [INFERENCE]. That fits the team's remark that municipal poverty "solo viene hasta 2015" (CL1 msg 6). It was superseded by the 2010–2020 CONEVAL file. Please confirm.

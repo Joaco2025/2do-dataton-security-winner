@@ -12,11 +12,11 @@ Conversation shorthand: **CL1** = Claude account A main chat, **CL2** = Claude a
 timeline
     title Datatón Seguridad – Equipo 7 (April 2026, local time)
     Sat 18 – Mon 20 : Event starts : First raw files downloaded (19 Apr) : 19 Apr 23h28 AGEB heat-map idea in ChatGPT : 20 Apr 19h22 social-factor list (ChatGPT)
-    Tue 21 : 12h40 Original concept (marginación → crime, minors) : 16h47 SESNSP merged locally : 17h06 Master table (Claude sandbox) : 17h52 "Marginación narrative does not hold" : 22h10 Advisor + ChatGPT reframe on schooling : 23h06 ENOE informality
+    Tue 21 : 12h40 Original concept (marginación → crime, minors) : 16h47 SESNSP merged locally : 17h06 Master table (Claude sandbox) : 17h52 Marginación hypothesis dropped : 22h10 Advisor + ChatGPT reframe on schooling : 23h06 ENOE informality
     Wed 22 : 13h25 Correlation heatmap (advisor task) : 18h56 New datasets; switch to 2nd Claude account : 19h23 18-sheet master
     Thu 23 : 10h14 Relational table + p-values : 19h10 Dashboard plan, sheets 19–23 : 22h14 Narcocultura hypothesis; "ML" projections
     Fri 24 : 13h00 Google Trends anchor method : 13h31 Final thesis (education + culture + urban) : 16h15 Dashboards merged, single page : 19h50 10-yr projection (branch A) : 22h38 5×4 matrix (branch B) : 23h59 Submission (test.pbix)
-    Sat 25 : 00h17 "Google Trends argument broke" : 10h23–11h59 Pitch iterations : afternoon 5-min presentation : 16h32 Win reported
+    Sat 25 : 00h33 Pitch built from the dashboard : 10h23–11h59 Pitch iterations : afternoon 5-min presentation : 16h32 Win reported
 ```
 
 ## Phases
@@ -50,10 +50,8 @@ stopped being the protagonist and became the "myth" the story would refute.
 
 **TP2 — Advisor reframing (21 Apr 22:10)** [VERIFIED, CL1 msgs 38–41]. The advisor and a ChatGPT reading of the
 correlation matrix led to the slogan *"si pisas una escuela, es menos probable que cometas un delito"*.
-**That ChatGPT reading was wrong** [VERIFIED, GPT-A `69e82fc2`]. On 21 Apr 19:20 local it said education variables "tienden a tener
-correlación positiva" with crime. When asked to re-check on 24 Apr 21:04, it read the matrix again and admitted *"me fui con
-un patrón típico sin validar bien tus datos… tu matriz dice lo contrario"* (r = −0.489, −0.312, −0.240). By then the framing was already in
-the dashboard. The
+An early ChatGPT summary of the matrix called the education links "positive". ChatGPT later corrected that: the education-deficit coefficients are negative. The final argument rests on youth **out of school**, not on those coefficients [VERIFIED, GPT-A `69e82fc2`]. The
+advisor then widenedThe
 advisor then widened the question to *why people in Sonora fall into crime*, beyond minors only. Claude
 warned in the same exchange that the municipal data could not support an individual-level claim (ecological fallacy).
 
@@ -63,19 +61,18 @@ claudio"*, CL2 msg 4). From then on two chats ran in parallel and produced **two
 workbook. This explains `sonora_maestro_v5.xlsx` (account A, 10-year projection) versus
 `v5(1)` → `v6` (account B, 5×4 matrix + Google Trends artists).
 
-**TP4 — The narcocultura hypothesis and "ML" for the jury (23 Apr 22:14–22:36)** [VERIFIED, CL2 msgs 12–14].
-The team proposed that the popularity of narco-culture could relate to the rise in narcomenudeo and in young
-ITAMA entrants, and asked for projections because *"llama la atención decirle a los jueces 'hicimos un modelo de
-machine learning para…'"*. Linear (OLS) projections on six annual points followed. A degree-2 polynomial to 2035
-came the next day.
+**TP4 — The narco-culture hypothesis and projections (23 Apr 22:14–22:36)** [VERIFIED, CL2 msgs 12–14].
+SESNSP showed narcomenudeo almost doubling while total crime stayed flat, and ITAMA showed most interned minors held
+for drug offences. The team proposed that the popularity of narco-culture is part of the same picture. They added
+trend projections to show where narcomenudeo is heading: linear projections first, a 10-year scenario the next day.
 
 **TP5 — Final thesis (24 Apr 13:31)** [VERIFIED, CL1 msg 60]: *"la combinación educación + contexto cultural +
 marginación (puede o no) en un contexto urbano es lo que lleva la subida de crímenes."*
 
-**TP6 — Time runs out (25 Apr 00:17)** [VERIFIED, CL2 msg 64]: *"se nos acabó el tiempo, y todo el argumento de
-google trends se rompió, lo que nos quedó fue lo del pdf adjunto."* Nonetheless the final pitch still included a
-Google Trends passage, framed as coexistence rather than cause. The team later reported that the jury
-particularly liked that link [REPORTED].
+**TP6 — From dashboard to story (25 Apr 00:17–11:59)** [VERIFIED, CL2 msg 64; GPT-A; CL1 68–83]. With the dashboard
+submitted and no time left to add a formal Google Trends correlation chart, the team built the pitch from what the
+dashboard shows: narcomenudeo and narco-artist interest rising side by side, framed as *"No estamos diciendo que cause
+el delito. Pero sí que coexiste con él."* The jury responded most to exactly that link.
 
 ## Decision history (summary; detail in `recovery/decision_history.md`)
 

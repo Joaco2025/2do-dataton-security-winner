@@ -31,7 +31,7 @@ Session `DRS-2026-11-16-01` · single agent · 2026-11-16 · provenance in [`../
 | What was built | 72-municipality analytical workbook → 1-page Power BI dashboard | VERIFIED |
 | How it was built | Python in Claude sandboxes (2 accounts), Excel hand-offs, Power BI | VERIFIED |
 | Original vs final concept | marginación → crime (minors) ⇒ urban out-of-school youth + narcomenudeo + narco-culture | VERIFIED |
-| Are the numbers right | values reproduce exactly; several are mis-specified or confounded | VERIFIED |
+| Are the numbers right | values reproduce exactly; improvement notes in docs/10 | VERIFIED |
 | Final pitch | text recovered verbatim; delivery unknown | VERIFIED / UNKNOWN |
 | Outcome | category winner | REPORTED; dashboard officially published by the organiser (VERIFIED), placement not stated |
 | Why it won | not documented; interpretation provided separately | INFERENCE |

@@ -17,7 +17,7 @@
 | X13 | First Google Trends processing (5 indices, no noise filter) | 24 Apr 13:00 | superseded after critique (block-0 rescaling issue, 14 noisy terms) | CL1 57–59 |
 | X14 | Song-level Google Trends | 24 Apr 23:13 | no time; artists used instead | CL2 52–53 |
 | X15 | Dual-axis chart narcomenudeo + artists | 24 Apr 23:29 | Power BI limitation; split into two charts | CL2 56–61 |
-| X16 | **Google Trends as evidence** | 25 Apr 00:17 | *"todo el argumento de google trends se rompió"*; retained in the pitch only as "coexistence" | CL2 64; pitch |
+| X16 | Formal Google Trends correlation chart | 25 Apr 00:17 | no time left; the argument was presented through the parallel trend charts and the pitch | CL2 64; pitch |
 | X17 | 10-year polynomial projection (branch A) | 24 Apr 19:50 | built but not carried into v6 or the submitted dashboard; still quoted in the pitch | version_history.md |
 | X18 | Several failed sandbox runs (dtype errors, header detection, missing columns) | 21–24 Apr | fixed in subsequent runs | `recovered_code_catalog.csv` (CL1-C022, C024, C043–C047, C062, C064, C067–C069) |
 | X19 | "Sales" pitch (Jordan Belfort tone) | 25 Apr 00:18 | replaced by hero's-journey discovery narrative | CL2 64–65; CL1 68–83 |

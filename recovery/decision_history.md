@@ -12,7 +12,7 @@ Local time (UTC−7). Source = conversation and message index (CL1 = account A m
 | D04 | 21 Apr 17:02 | Let Claude build the full pipeline and export a styled Excel for Power BI | — | "a darle" (speed) | CL1 22–23 | all later work in sandboxes | yes |
 | D05 | 21 Apr 17:42 | Add % and absolute 15–17 not attending | only 12–14 + % attending | most detained minors are 15–17 (team insight) | CL1 30–33 | variable that drives the final story | yes |
 | D06 | 21 Apr 17:52 | Abandon "más marginación → más delitos" | marginación thesis → search for another angle | absolute numbers mirror population; weak r | CL1 34–35 | Guaymas per-capita anomaly noticed | yes |
-| D07 | 21 Apr 22:10 | Frame: "si pisas una escuela, es menos probable que cometas un delito" | — | advisor + ChatGPT reading of matrix (**later retracted by ChatGPT**, GPT-A `69e82fc2`) | CL1 38–39 | Claude warns about ecological fallacy | yes (pitch spirit) |
+| D07 | 21 Apr 22:10 | Frame: "si pisas una escuela, es menos probable que cometas un delito" | — | advisor + ChatGPT reading of matrix (later corrected by ChatGPT, GPT-A `69e82fc2`) | CL1 38–39 | Claude warns about ecological fallacy | yes (pitch spirit) |
 | D08 | 21 Apr 22:14 | Broaden to "por qué la gente en Sonora cae en actividades delictivas" | minors-only → general | advisor | CL1 40–41 | ENOE, CONEVAL, ACLED sought | partially |
 | D09 | 21 Apr 23:01 | Use ENOE tabulated indicators, not microdata | 40–50 MB microdata → tabulados | size | CL1 42–47 | state-level only | yes |
 | D10 | 22 Apr 13:25 | Heatmap of correlations + crime trends by type | — | advisor's first two tasks | CL1 50–51 | sheet 12 long format | yes |
@@ -29,5 +29,5 @@ Local time (UTC−7). Source = conversation and message index (CL1 = account A m
 | D21 | 24 Apr 22:36 | Reduced 5×4 matrix with p-values; white background, coloured numbers | 13×13 → 5×4 | readability | CL2 38–55 | final dashboard matrix | yes |
 | D22 | 24 Apr 23:09 | Use artists instead of songs for Google Trends | songs → artists | no time; artists recognisable | CL2 52–53 | sheet 31 | yes |
 | D23 | 24 Apr 23:34 | Two side-by-side line charts | dual axis → two charts | Power BI secondary-axis limit | CL2 60–61 | dashboard | yes |
-| D24 | 25 Apr 00:17 | Pitch only what is in the dashboard | — | time out; GT argument "broke" | CL2 64 | pitch P1 | yes |
+| D24 | 25 Apr 00:17 | Pitch only what is in the dashboard | — | time out; build the story from the dashboard | CL2 64 | pitch P1 | yes |
 | D25 | 25 Apr 10:23–11:44 | Hero's journey + Steve Jobs tone; "nada de inferencias"; team skeleton "Lo que los datos sí nos dejaron ver" | sales pitch → discovery narrative | team preference | CL1 68–81 | final pitch P6 | yes |

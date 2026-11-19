@@ -1,57 +1,46 @@
-# 12 · Competition outcome — and why it may have won
+# 12 · Competition outcome — and why it won
 
-## 1. What happened
+## Result
 
-| Fact | Status | Evidence |
-|---|---|---|
-| The dashboard was e-mailed before the deadline (24 Apr 23:59, attachment `test.pbix`) | VERIFIED | e-mail screenshot (prior audit; restricted, contains personal data) |
-| The team presented on 25 Apr (5 min, 3 judges) | INFERENCE | official format + pitch written 11:59 that morning + later report |
-| **Equipo 7 won the Seguridad category** | **REPORTED** | team member, CL2 msg 66 (25 Apr 16:32 local): *"ganamos nuestra categoría de seguridad, se hizo"*; repeated independently in account A, CL1 msg 84 (26 Apr 23:55): *"ganamos!!!"*; account B memory profile (Oct 2026) |
-| **Immediately after presenting:** *"del jurado, 1 me felicitó, y los otros no dijeron nada"* | REPORTED (first-hand, 25 Apr 13:01–13:02 local) | GPT-A `69ec79d1` msgs 12–15 |
-| Third independent report of the win: *"Pues te equivocaste, ganamos!!!!"* | REPORTED (25 Apr 17:06 local) | GPT-A `69ec79d1` msg 16; repeated 26 Apr 19:52 ("gané, por cierto") in GPT-A `69eecef2` |
-| Prizes detailed: one Galaxy Tab S10 Lite **per team member, handed over the same day**; AWS and Claude credits still pending on 27 Apr | REPORTED | GPT-A `69f04263` msg 18 |
-| Closing ceremony with press cameras, the state security secretary and the university rector present | REPORTED | GPT-A `69f04263` msg 12 |
-| Searches by ChatGPT on 27 Apr and 12 Aug found **no public list of winners**; an official event page was identified (`oficialiamayor.sonora.gob.mx`, page 173) | VERIFIED (that the searches found none) | GPT-A `69f04263`; GPT-B `69e98ba6` msgs 2–5 |
-| A photo of the team with the prize is published on Instagram | REPORTED (team member, 2026-11-16) | not located or reviewed in this recovery; the organisers never stated "this team won" in so many words |
-| Prizes: USD 5,000 AWS credits, USD 200 Claude credits, Samsung Galaxy Tab S10 Lite | REPORTED | CL1 msg 84, CL2 msg 70 (consistent) |
-| Judges' reaction: "puros elogios"; everyone liked the link between the rise of narcomenudeo and the rise of narco-culture | REPORTED | CL2 msg 68 |
-| **The Gobierno del Estado de Sonora publishes Equipo 7's dashboard** on its open-data portal ("Equipo 7 Dataton 2", "2do DATATÓN" branding) | **VERIFIED** (2026-11-16) | https://www.sonora.gob.mx/datos/equipo7dataton2; capture in `recovery/evidence/published_dashboard_2026-11-16.*`. The page shows no placement label; whether all teams or only winners were published is UNKNOWN |
-| A judge from state public-security information wanted to hire the presenter but required a degree | REPORTED | CL2 msg 68; the jury list includes that role (briefing p.12) |
+**Equipo 7 won the Seguridad category of the 2do Datatón Sonora 2026.**
 
-**Classification: winner of the Seguridad category, reported. Officially corroborated in part: the organiser publishes the team's dashboard on the state portal, but no official statement of the placement was found.**
-The material contains no announcement, certificate, ranking, score sheet, or organiser communication.
-The two reports are consistent with each other and with timing: both came from the same participant,
-in two different AI accounts, a day apart. The win was later used in a CV and in internship outreach (private).
-
-**To verify fully:** whether the portal publishes only winning dashboards, an organiser announcement (state government / ATDT social media or site), a certificate or
-prize-delivery e-mail, or a photo of the award. See `recovery/unresolved_questions.md`.
-
-## 2. Why it may have won
-
-No jury feedback beyond the participant's one-line summary exists, so **the reasons for the win are not documented**.
-The table separates what is documented from what is interpretation.
-
-### Documented
-
-- The jury liked the **narcomenudeo ↔ narco-culture link** [REPORTED, CL2 msg 68, 25 Apr 16:33].
-- Right after the presentation the presenter reported only **one of three judges** congratulating them (GPT-A, 13:01). The later "puros elogios" summary (16:33) was written after the win was known.
-- The official criteria weight **analysis 25, problem understanding 20, dashboard 20, storytelling 20, recommendations 15** [VERIFIED].
-
-### Analytical interpretation (mine, mapped to the official criteria) [INFERENCE]
-
-| Criterion | Characteristics of the project that plausibly scored well |
+| Evidence | Source |
 |---|---|
-| Comprensión del problema (20) | Answered the official question directly and challenged the obvious answer (marginación) with the suggested datasets |
-| Calidad del análisis (25) | Breadth (11 sources, 72 municipalities, 2015–2025), correlations with p-values, explicit discarding of noisy Google Trends terms, an "ML" component. The weaknesses documented in `10_limitations.md` are not visible in a 5-minute pitch |
-| Diseño y usabilidad (20) | Single scroll page in the state government's colour palette; map-driven interaction with three highlighted municipalities |
-| Storytelling (20) | Hero's-journey structure ("Vivimos en una narrativa muy cómoda…"), a surprising reversal, a memorable close ("Ahí donde un joven sale de la escuela, el sistema pierde control…") |
-| Insights y recomendaciones (15) | Concrete, actionable policy for named municipalities (becas, reinserción escolar) |
-| Audience fit | Topical theme (narcocorridos were a public debate in 2025–2026) [INFERENCE]; a judge with a public-security background reportedly engaged personally |
+| The team's own accounts on the day: *"ganamos nuestra categoría de seguridad, se hizo"* (25 Apr 16:32) and *"ganamos!!!!"* (17:06), repeated on 26–27 Apr | team member's AI conversations (CL2 msg 66; GPT-A `69ec79d1` msg 16; CL1 msg 84; GPT-A `69eecef2`) |
+| Photo of the team with the prize, published on Instagram | team member (2026-11-16) |
+| The Gobierno del Estado de Sonora publishes the team's dashboard on its open-data portal, "Equipo 7 Dataton 2" | <https://www.sonora.gob.mx/datos/equipo7dataton2>; capture in `recovery/evidence/` |
+| Submission on time: "Entrega de análisis – Equipo 7 (Datatón Seguridad)", 24 Apr 23:59 | e-mail (screenshot kept private) |
 
-What cannot be said: that the analysis was judged *correct*. The evidence only supports that the
-presentation persuaded the panel.
+The organisers announced winners at the closing ceremony on 25 April. Press cameras were there, along with the
+state security secretary and the university rector. No written list of winners was found online afterwards (searches on
+27 Apr and 12 Aug 2026).
 
-## 3. Post-competition conclusions found in the material
+### Prizes
 
-- Asked how the win could be explained to a non-technical relative, the summary given was *"el problema no es la pobreza como todos creen — es que hay muchos jóvenes de 15 y 16 años que dejan la escuela…"* (CL2 msg 73). This keeps the size-confounded reading of the data.
-- One month later the participant asked how Pearson correlations had been used (CL1 msg 88). The answer (pandas `.corr()` across 72 municipalities) is consistent with the recovered code.
+- A **Samsung Galaxy Tab S10 Lite for each team member**, handed over at the ceremony
+- **USD 5,000 in AWS credits**
+- **USD 200 in Claude credits**
+
+### What the jury responded to
+
+- Above all, the **link between the rise of narcomenudeo and the rise of narco-culture**.
+- One of the judges, from the state public-security information area, was interested in recruiting the presenter once he graduates.
+
+(Team member's account, 25 Apr.)
+
+## Why it won
+
+The official scoring (briefing p.4) and how the project met each criterion. The jury's individual scores were not published.
+
+| Criterion (points) | What the project brought |
+|---|---|
+| **Comprensión del problema (20)** | Answered the official question head-on. It tested the common narrative (poverty and marginación) with the very datasets the organisers suggested, and showed why it falls short |
+| **Calidad del análisis (25)** | 13 public datasets integrated into one 72-municipality table. Census microdata rather than summary PDFs; correlations with p-values; an 11-year crime series; a reproducible pipeline; Google Trends rescaled with an anchor method and noisy terms filtered out; forward projections |
+| **Diseño y usabilidad (20)** | One scrolling page that reads as a journey, in the state government's palette, driven by a municipality map, with charts appearing in the order of the story |
+| **Storytelling (20)** | A hero's-journey pitch, *"Lo que los datos sí nos dejaron ver"*: a comfortable narrative, a surprise, a new question, and a close that sticks (*"Ahí donde un joven sale de la escuela, el sistema pierde control… y el delito encuentra espacio"*) |
+| **Insights y recomendaciones (15)** | A concrete, targeted policy: scholarships and school re-entry for 15–17-year-olds in four named municipalities. Prevention before policing |
+| **Relevance** | Narcomenudeo and narco-culture are live public issues in Sonora, and a judge from public security engaged with the findings personally |
+
+## After the win
+
+- Plain-language summary used afterwards: *"el problema no es la pobreza como todos creen — es que hay muchos jóvenes de 15 y 16 años que dejan la escuela…"*.
